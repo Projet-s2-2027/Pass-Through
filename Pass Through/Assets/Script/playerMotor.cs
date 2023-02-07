@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class playerMotor : MonoBehaviour
+public class PlayerMotor : MonoBehaviour
 {
    [SerializeField]
    private Camera cam;
@@ -14,7 +14,7 @@ public class playerMotor : MonoBehaviour
    
    private Rigidbody rb;
 
-   private void start()
+   private void Start()
    {
       rb = GetComponent<Rigidbody>();
    }

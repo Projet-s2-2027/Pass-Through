@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[RequireComponent(typeof(playerMotor))]
+[RequireComponent(typeof(PlayerMotor))]
 public class PlayerController : MonoBehaviour
 {
    //vitesse du joueur
@@ -13,12 +13,12 @@ public class PlayerController : MonoBehaviour
    private float mouseSensitivityY = 3f;
    
    //récupère les scripts du player motor
-   private playerMotor motor;
+   private PlayerMotor motor;
 
    private void Start()
    {
       //constructeur du motor
-      motor = GetComponent<playerMotor>();
+      motor = GetComponent<PlayerMotor>();
    }
 
    private void Update()
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
       Vector3 rotation = new Vector3(0,yRot,0) * mouseSensitivityX;
 
       motor.Rotate(rotation);
-      //On calcule la rotation du joueur en Vector3
+      //On calcule la rotation de la caméra en Vector3
       float xRot = Input.GetAxisRaw("Mouse Y");
       
       Vector3 cameraRotation = new Vector3(xRot,0,0) * mouseSensitivityY;
