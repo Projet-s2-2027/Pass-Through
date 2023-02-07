@@ -856,6 +856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  mouseSensitivity: 3
 --- !u!114 &1500238773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -868,6 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 466bf1342b915e8419bcc0101da84135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 2146613322}
 --- !u!54 &1500238774
 Rigidbody:
   m_ObjectHideFlags: 0
