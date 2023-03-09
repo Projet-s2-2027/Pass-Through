@@ -353,6 +353,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scenes/CameraUtility.cs"
+"Assets/Scenes/MainCamera.cs"
+"Assets/Scenes/Portal.cs"
+"Assets/Scenes/PortalTraveller.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerMotor.cs"
 -langversion:9.0
