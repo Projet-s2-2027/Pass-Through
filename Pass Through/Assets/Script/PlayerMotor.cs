@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -9,8 +10,11 @@ public class PlayerMotor : MonoBehaviour
    
    private Vector3 _velocity;
    private Vector3 _rotation;
-   private Vector3 _cameraRotation;
+   private float cameraRotationX=0f;
+   private float currentCameraRotationX = 0f;
    public float jumpPower = 4.5f;
+   private Vector3 thrusterVelocity;
+   [SerializeField] private float cameraRotationLimit = 85f;
 
    private Rigidbody rb;
 
@@ -28,9 +32,14 @@ public class PlayerMotor : MonoBehaviour
    {
       this._rotation = rotation;
    }
-   public void RotateCamera(Vector3 cameraRotation)
+   public void RotateCamera(float cameraRotationX)
    {
-      this._cameraRotation = cameraRotation;
+      this.cameraRotationX = cameraRotationX;
+   }
+
+   public void ApplyThruster(Vector3 _thrusterVelocity)
+   {
+      thrusterVelocity = _thrusterVelocity;
    }
    //applique le mouvement au Rigidbody.
    private void FixedUpdate()
@@ -49,12 +58,20 @@ public class PlayerMotor : MonoBehaviour
       {
          rb.MovePosition(rb.position + _velocity * Time.fixedDeltaTime);
       }
+
+      if (thrusterVelocity != Vector3.zero)
+      {
+         rb.AddForce(thrusterVelocity*Time.fixedDeltaTime,ForceMode.Acceleration);
+      }
    }
 
    private void PerformRotation()
    {
       rb.MoveRotation(rb.rotation * Quaternion.Euler(_rotation));
-      cam.transform.Rotate(-_cameraRotation);
+      currentCameraRotationX -= cameraRotationX;
+      currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
+      cam.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+
    }
 
    private void Jump()
