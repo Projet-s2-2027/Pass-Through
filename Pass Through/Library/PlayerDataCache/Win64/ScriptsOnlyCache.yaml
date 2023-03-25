@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
+    - Player
     - PlayerController
     - PlayerMotor
     - PlayerSetup
@@ -17,8 +19,6 @@ ScriptsOnlyBuild:
     - Mirror.NetworkStartPosition
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -62,27 +62,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 3546}
+      Script: {instanceID: 3548}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4924}
+      Script: {instanceID: 4926}
     - Class: 114
-      Script: {instanceID: 5350}
+      Script: {instanceID: 5352}
     - Class: 114
-      Script: {instanceID: 6542}
+      Script: {instanceID: 6544}
     - Class: 114
-      Script: {instanceID: 7564}
+      Script: {instanceID: 7566}
     - Class: 114
-      Script: {instanceID: 8002}
+      Script: {instanceID: 8004}
     - Class: 114
-      Script: {instanceID: 8318}
+      Script: {instanceID: 8320}
     - Class: 114
-      Script: {instanceID: 8722}
+      Script: {instanceID: 8724}
     - Class: 114
-      Script: {instanceID: 24258}
+      Script: {instanceID: 8938}
+    - Class: 114
+      Script: {instanceID: 24266}
+    - Class: 114
+      Script: {instanceID: 24276}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -1490,6 +1494,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: e5511d67e94a334af3ad189fbf7bb431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerShoot
+  - hash:
+      serializedVersion: 2
       Hash: 0e68c7511d0bb7746e68316200e21bb0
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
@@ -1508,11 +1518,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e5511d67e94a334af3ad189fbf7bb431
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerShoot
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: e898d5a45708c998741ccbb88d85ce38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
   platform: 19
   scenePathNames:
   - Assets/TestScene.unity
-  playerPath: D:/proj/jeux video/Pass-Through/Pass Through/Pass Through.exe
+  playerPath: D:/proj/jeux video/Pass-Through/Pass Through/Build/Pass Through.exe

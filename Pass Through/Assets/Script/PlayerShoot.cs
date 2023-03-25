@@ -39,15 +39,16 @@ public class PlayerShoot : NetworkBehaviour
         {
             if(hit.collider.tag == "Player")
             {
-                CmdPlayerShot(hit.collider.name);
+                CmdPlayerShot(hit.collider.name, weapon.damage);
             }
         }
     }
 
     [Command]
-    private void CmdPlayerShot(string playerName)
+    private void CmdPlayerShot(string playerId, float damage)
     {
-
+        Player player = GameManager.GetPlayer(playerId);
+        player.TakeDamage(damage);
     }
 
 }

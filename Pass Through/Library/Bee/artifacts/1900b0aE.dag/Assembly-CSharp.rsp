@@ -383,6 +383,8 @@
 "Assets/Scenes/MainCamera.cs"
 "Assets/Scenes/Portal.cs"
 "Assets/Scenes/PortalTraveller.cs"
+"Assets/Script/GameManager.cs"
+"Assets/Script/Player.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerMotor.cs"
 "Assets/Script/PlayerSetup.cs"
