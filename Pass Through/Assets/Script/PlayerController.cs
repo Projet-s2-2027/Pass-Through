@@ -1,9 +1,11 @@
  using System;
 using UnityEngine;
+using Mirror;
+ using Unity.VisualScripting;
 
-[RequireComponent(typeof(PlayerMotor))]
+ [RequireComponent(typeof(PlayerMotor))]
 [RequireComponent(typeof(ConfigurableJoint))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : NetworkBehaviour
 {
    //vitesse du joueur
    [SerializeField]
@@ -12,6 +14,8 @@ public class PlayerController : MonoBehaviour
    private float mouseSensitivityX = 3f;
    [SerializeField]
    private float mouseSensitivityY = 3f;
+
+   public Camera playerCamera;
 
    [SerializeField] private float thrusterForce = 1000f;
    
@@ -29,10 +33,22 @@ public class PlayerController : MonoBehaviour
       motor = GetComponent<PlayerMotor>();
       joint = GetComponent<ConfigurableJoint>();
       SetJointSettings(jointSpring);
+      
+      
+      //Disable camera if we are not the host
+      //if (!isLocalPlayer)
+      //{
+        // playerCamera.gameObject.SetActive(false);
+      //}
    }
 
    private void Update()
    {
+      //If we are not the main client, don't run this method
+      if (!isLocalPlayer)
+      {
+         return;
+      }
       //calcul de la vélocité du mouvement du joueur
       float xMov = Input.GetAxisRaw("Horizontal");
       float zMov = Input.GetAxisRaw("Vertical");
