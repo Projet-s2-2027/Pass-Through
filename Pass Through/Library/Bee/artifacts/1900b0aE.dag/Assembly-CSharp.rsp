@@ -386,6 +386,7 @@
 "Assets/Scenes/Portal.cs"
 "Assets/Scenes/PortalTraveller.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/MatchSettings.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerMotor.cs"

@@ -16,12 +16,6 @@ public class PlayerSetup : NetworkBehaviour
     {
         if (!isLocalPlayer)
         {
-            for (int i = 0; i < componentsToDisable.Length; i++)
-            {
-                componentsToDisable[i].enabled = false;
-            }
-
-            
             // On desactive les composants renseigner si ce n'est pas notre joueur 
             DisableComponents();
             AssignRemoteLayer();
@@ -35,7 +29,9 @@ public class PlayerSetup : NetworkBehaviour
                 sceneCamera.gameObject.SetActive(false);
             }
         }
-    
+
+        GetComponent<Player>().Setup();
+
     }
     
     public override void OnStartClient()

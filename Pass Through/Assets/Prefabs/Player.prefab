@@ -524,6 +524,9 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   maxHealth: 100
+  disableOnDeath:
+  - {fileID: 5974181631857543802}
+  - {fileID: 5456676485231689946}
 --- !u!114 &1921732331116672196
 MonoBehaviour:
   m_ObjectHideFlags: 0

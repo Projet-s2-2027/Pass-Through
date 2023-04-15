@@ -48,7 +48,7 @@ public class PlayerShoot : NetworkBehaviour
     private void CmdPlayerShot(string playerId, float damage)
     {
         Player player = GameManager.GetPlayer(playerId);
-        player.TakeDamage(damage);
+        player.RpcTakeDamage(damage);
     }
 
 }

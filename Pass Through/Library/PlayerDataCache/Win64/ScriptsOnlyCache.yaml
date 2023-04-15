@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
     - Player
     - PlayerController
     - PlayerMotor
@@ -9,8 +10,6 @@ ScriptsOnlyBuild:
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     - Mirror.NetworkTransformReliable
-    Mirror.Editor.dll:
-    - Mirror.NetworkBehaviourInspector
     Mirror.Transports.dll:
     - kcp2k.KcpTransport
     Mirror.dll:
@@ -28,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses:
     Assembly-CSharp:
+    - MatchSettings
     - PlayerWeapon
     Mirror:
     - Mirror.SnapshotInterpolationSettings
@@ -66,6 +66,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2162}
     - Class: 114
       Script: {instanceID: 3300}
     - Class: 114
@@ -187,7 +189,7 @@ ScriptsOnlyBuild:
     className: NetworkStatistics
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 8544e60a701f73918c5577944914252b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -787,7 +789,7 @@ ScriptsOnlyBuild:
     className: NavMeshModifierVolume
   - hash:
       serializedVersion: 2
-      Hash: 89a9da406eba9d0344ba3848ebea6605
+      Hash: 0c53c2debe0e1070503093d5a82ddabe
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
