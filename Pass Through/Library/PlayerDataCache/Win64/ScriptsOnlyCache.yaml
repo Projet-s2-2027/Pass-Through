@@ -19,7 +19,6 @@ ScriptsOnlyBuild:
     - Mirror.NetworkStartPosition
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -67,21 +66,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2162}
+      Script: {instanceID: 2164}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3302}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 4548}
+      Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4668}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 5064}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 6124}
     - Class: 114
       Script: {instanceID: 7048}
     - Class: 114
@@ -1234,4 +1233,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/TestScene.unity
-  playerPath: C:/Users/tomba/ProjetS2/Pass-Through/Pass Through/Build/Pass Through.exe
+  playerPath: C:/Users/natha/OneDrive/Bureau/Pass Through.exe
