@@ -387,6 +387,7 @@
 "Assets/Scenes/PortalTraveller.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/MatchSettings.cs"
+"Assets/Script/PauseMenu.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerMotor.cs"
@@ -394,9 +395,9 @@
 "Assets/Script/PlayerShoot.cs"
 "Assets/Script/PlayerUI.cs"
 "Assets/Script/PlayerWeapon.cs"
+"Assets/Script/StreamVideo.cs"
+"Assets/Script/Util.cs"
 "Assets/Script/WeaponManager.cs"
-"Assets/StreamVideo.cs"
-"Assets/Util.cs"
 -langversion:9.0
 
 /deterministic
