@@ -21,7 +21,6 @@ ScriptsOnlyBuild:
     - Mirror.NetworkStartPosition
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -91,33 +90,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 4550}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4554}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 5372}
+      Script: {instanceID: 5074}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 5378}
     - Class: 114
-      Script: {instanceID: 6432}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 6438}
     - Class: 114
-      Script: {instanceID: 7444}
+      Script: {instanceID: 7056}
     - Class: 114
-      Script: {instanceID: 7742}
+      Script: {instanceID: 7450}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 7748}
     - Class: 114
-      Script: {instanceID: 8372}
+      Script: {instanceID: 8102}
     - Class: 114
-      Script: {instanceID: 29156}
+      Script: {instanceID: 8286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -231,7 +230,7 @@ ScriptsOnlyBuild:
     className: NetworkStatistics
   - hash:
       serializedVersion: 2
-      Hash: 89f242afcc9a675f5c8ea7e09f1d4e86
+      Hash: e6e75dcbbd7048df091d99c832181ffc
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: WeaponManager
@@ -549,6 +548,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ab49cdcf03c809c289375b0ee051a319
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerUI
+  - hash:
+      serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -679,6 +684,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components
     namespaceName: Mirror.Experimental
     className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 9c921f2d160a6b6daa98fb049241d05b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StreamVideo
   - hash:
       serializedVersion: 2
       Hash: c952b1f0d5e62e27da8627b17555a910
@@ -1251,6 +1262,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 5333fecfb7deefef472525a230fbe7fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerShoot
+  - hash:
+      serializedVersion: 2
       Hash: 27045774fab6b5a933b34c6149177788
     assemblyName: Mirror.Components
     namespaceName: Mirror
@@ -1267,18 +1284,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 5333fecfb7deefef472525a230fbe7fa
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerShoot
-  - hash:
-      serializedVersion: 2
-      Hash: ab49cdcf03c809c289375b0ee051a319
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerUI
   platform: 19
   scenePathNames:
   - Assets/TestScene.unity

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6467652400625581533}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: WeaponHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ Transform:
   - {fileID: 847099513162431611}
   - {fileID: 5040823880365059859}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4857369826256213401
 Rigidbody:
@@ -369,7 +369,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   target: {fileID: 2099559969421703569}
-  clientAuthority: 0
+  clientAuthority: 1
   syncPosition: 1
   syncRotation: 1
   syncScale: 0
@@ -463,8 +463,8 @@ MonoBehaviour:
     range: 100
     fireRate: 10
     graphics: {fileID: 4253638995935831375, guid: bf692f376063b08478f2859df7c10fc6, type: 3}
-  weaponLayerName: Weapon
   weaponHolder: {fileID: 6467652400625581533}
+  weaponLayerName: Weapon
 --- !u!1 &4129634145274502686
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6616350219659430479}
   - component: {fileID: 1989432396620954756}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: WeaponCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}

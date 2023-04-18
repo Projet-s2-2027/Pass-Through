@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7300162463228422225
 MonoBehaviour:
@@ -52,7 +52,7 @@ MonoBehaviour:
   autoConnectClientBuild: 0
   sendRate: 30
   offlineScene: Assets/Scenes/Lobby.unity
-  onlineScene: Assets/Scenes/Map.unity
+  onlineScene: Assets/TestScene.unity
   transport: {fileID: 6856107275886322294}
   networkAddress: localhost
   maxConnections: 100

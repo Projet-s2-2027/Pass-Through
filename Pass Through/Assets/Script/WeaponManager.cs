@@ -9,11 +9,13 @@ public class WeaponManager : NetworkBehaviour
     
     private PlayerWeapon currentWeapon;
     
+    [SerializeField] 
+    private Transform weaponHolder;
+    
     [SerializeField]
     private string weaponLayerName = "Weapon";
 
-    [SerializeField] 
-    private Transform weaponHolder;
+    
     void Start()
     {
         EquipWeapon(primaryWeapon);
@@ -33,17 +35,9 @@ public class WeaponManager : NetworkBehaviour
 
         if (isLocalPlayer)
         {
-            weaponIns.layer = LayerMask.NameToLayer(weaponLayerName);
-            SetLayerRecursively(weaponIns,LayerMask.NameToLayer(weaponLayerName));
+            Util.SetLayerRecursively(weaponIns,LayerMask.NameToLayer(weaponLayerName));
         }
     }
-    private void SetLayerRecursively(GameObject obj, int newLayer)
-    {
-        obj.layer = newLayer;
-        foreach (Transform child in obj.transform)
-        {
-            SetLayerRecursively(child.gameObject,newLayer);
-        }
-    }
+    
 }
 

@@ -5,11 +5,6 @@ using Mirror;
 [RequireComponent(typeof(WeaponManager))]
 public class PlayerShoot : NetworkBehaviour
 {
-    
-    
-    
-    
-
     [SerializeField]
     private Camera cam;
 

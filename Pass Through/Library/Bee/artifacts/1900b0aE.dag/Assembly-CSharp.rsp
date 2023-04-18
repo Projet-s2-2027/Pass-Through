@@ -396,6 +396,7 @@
 "Assets/Script/PlayerWeapon.cs"
 "Assets/Script/WeaponManager.cs"
 "Assets/StreamVideo.cs"
+"Assets/Util.cs"
 -langversion:9.0
 
 /deterministic
