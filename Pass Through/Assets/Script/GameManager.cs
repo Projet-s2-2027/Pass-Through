@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     public MatchSettings matchSettings;
 
     public static GameManager instance;
+    
+    
+    [SerializeField]
+    private GameObject sceneCamera;
 
     private void Awake()
     {
@@ -19,6 +23,17 @@ public class GameManager : MonoBehaviour
             return;
         }
         Debug.LogError("Plus d'une instance de GameManager dans la scene");
+    }
+
+    public void SetSceneCameraActive(bool isActive)
+    {
+        if (sceneCamera==null)
+        {
+            return;
+        }
+        
+        sceneCamera.SetActive(isActive);
+        
     }
 
     public static void RegisterPlayer(string netId, Player player)

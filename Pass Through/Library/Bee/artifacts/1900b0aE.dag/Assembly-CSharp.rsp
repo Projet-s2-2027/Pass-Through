@@ -392,8 +392,10 @@
 "Assets/Script/PlayerMotor.cs"
 "Assets/Script/PlayerSetup.cs"
 "Assets/Script/PlayerShoot.cs"
+"Assets/Script/PlayerUI.cs"
 "Assets/Script/PlayerWeapon.cs"
 "Assets/Script/WeaponManager.cs"
+"Assets/StreamVideo.cs"
 -langversion:9.0
 
 /deterministic

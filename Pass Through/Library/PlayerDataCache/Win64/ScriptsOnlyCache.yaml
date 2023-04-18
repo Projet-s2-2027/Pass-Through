@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - PlayerMotor
     - PlayerSetup
     - PlayerShoot
+    - PlayerUI
     - WeaponManager
     Mirror.Components.dll:
     - Mirror.NetworkTransform
@@ -82,39 +83,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2166}
+      Script: {instanceID: 2086}
     - Class: 114
-      Script: {instanceID: 2686}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 4548}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4550}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5068}
     - Class: 114
-      Script: {instanceID: 6124}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 6430}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 7048}
+      Script: {instanceID: 6432}
     - Class: 114
-      Script: {instanceID: 7442}
+      Script: {instanceID: 7050}
     - Class: 114
-      Script: {instanceID: 7740}
+      Script: {instanceID: 7444}
     - Class: 114
-      Script: {instanceID: 8094}
+      Script: {instanceID: 7742}
     - Class: 114
-      Script: {instanceID: 8278}
+      Script: {instanceID: 8096}
     - Class: 114
-      Script: {instanceID: 27892}
+      Script: {instanceID: 8372}
+    - Class: 114
+      Script: {instanceID: 29156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -228,7 +231,13 @@ ScriptsOnlyBuild:
     className: NetworkStatistics
   - hash:
       serializedVersion: 2
-      Hash: 8544e60a701f73918c5577944914252b
+      Hash: 89f242afcc9a675f5c8ea7e09f1d4e86
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeaponManager
+  - hash:
+      serializedVersion: 2
+      Hash: b6d45952870ded484d9bb4d9db11505d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -456,7 +465,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: d2050d85992f22c669377fd86e638d9a
+      Hash: 9db5c286c229ec24d7fb4cfd8683757b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -1062,7 +1071,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 4e4f1c6bb49a1086400dd45b3bece958
+      Hash: d882ed4fa25e5f4ef1e9dae0eb0e46cd
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerSetup
@@ -1242,12 +1251,6 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 5333fecfb7deefef472525a230fbe7fa
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerShoot
-  - hash:
-      serializedVersion: 2
       Hash: 27045774fab6b5a933b34c6149177788
     assemblyName: Mirror.Components
     namespaceName: Mirror
@@ -1266,10 +1269,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 89f242afcc9a675f5c8ea7e09f1d4e86
+      Hash: 5333fecfb7deefef472525a230fbe7fa
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: WeaponManager
+    className: PlayerShoot
+  - hash:
+      serializedVersion: 2
+      Hash: ab49cdcf03c809c289375b0ee051a319
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerUI
   platform: 19
   scenePathNames:
   - Assets/TestScene.unity

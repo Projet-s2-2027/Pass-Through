@@ -2,6 +2,8 @@ using System;
 using Mirror;
 using UnityEngine;
 using System.Collections;
+using Unity.Properties;
+[RequireComponent(typeof(PlayerSetup))]
 
 public class Player : NetworkBehaviour
 {
@@ -16,6 +18,7 @@ public class Player : NetworkBehaviour
     private Behaviour[] disableOnDeath;
     private bool[] wasEnableOnStart;
 
+    private bool firstSetup = true;
     public bool isDead
     {
         get { return _isDead; }
@@ -25,16 +28,39 @@ public class Player : NetworkBehaviour
 
     public void Setup()
     {
-        wasEnableOnStart = new bool[disableOnDeath.Length];
-        for (int i = 0; i < disableOnDeath.Length; i++)
+        //changement de camera
+        if (isLocalPlayer)
         {
-            wasEnableOnStart[i] = disableOnDeath[i].enabled;
+            GameManager.instance.SetSceneCameraActive(false);
+            GetComponent<PlayerSetup>().playerUIInstance.SetActive(true);
         }
         
-        SetDefault();
         
+        CmdBroadcastNewPlayerSetup();
     }
 
+    [Command]
+    private void CmdBroadcastNewPlayerSetup()
+    {
+        RpcSetupOnAllCLients();
+    }
+
+    [ClientRpc]
+    private void RpcSetupOnAllCLients()
+    {
+        if (firstSetup)
+        {
+            wasEnableOnStart = new bool[disableOnDeath.Length];
+            for (int i = 0; i < disableOnDeath.Length; i++)
+            {
+                wasEnableOnStart[i] = disableOnDeath[i].enabled;
+            }
+            firstSetup = false;
+        }
+        SetDefault();
+    }
+
+    
     public void SetDefault()
     {
         isDead = false;
@@ -44,21 +70,33 @@ public class Player : NetworkBehaviour
         {
             disableOnDeath[i].enabled = wasEnableOnStart[i];
         }
-
+        //reactive le collider du joueur
         Collider col = GetComponent<Collider>();
         if (col!=null)
         {
             col.enabled = true;
+        }
+        
+        
+
+        if (isLocalPlayer)
+        {
+            GameManager.instance.SetSceneCameraActive(false);
+            GetComponent<PlayerSetup>().playerUIInstance.SetActive(true);
         }
     }
 
     private IEnumerator Respawn()
     {
         yield return new WaitForSeconds(GameManager.instance.matchSettings.respawnTimer);
-        SetDefault();
+        
         Transform spawnPoint = NetworkManager.singleton.GetStartPosition();
         transform.position = spawnPoint.position;
         transform.rotation = spawnPoint.rotation;
+        
+        yield return new WaitForSeconds(0.1f);
+
+        Setup();
     }
 
     private void Update()
@@ -103,7 +141,21 @@ public class Player : NetworkBehaviour
         {
             col.enabled = false;
         }
+        
+        
+        //changement de camera
+        if (isLocalPlayer)
+        {
+            GameManager.instance.SetSceneCameraActive(true);
+            GetComponent<PlayerSetup>().playerUIInstance.SetActive(false);
+        }
+        
+        
         Debug.Log(transform.name+"a été éliminé.");
         StartCoroutine(Respawn());
+        
+        
+        
+        
     }
 }

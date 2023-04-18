@@ -139,6 +139,8 @@ MonoBehaviour:
   mouseSensitivityY: 8
   playerCamera: {fileID: 0}
   thrusterForce: 1000
+  thrusterFuelBurnSpeed: 1
+  thrusterFuelRegenSpeed: 0.5
   jointSpring: 20
   jointMaxForce: 50
 --- !u!153 &8646644131801411295
@@ -286,6 +288,7 @@ MonoBehaviour:
   dontDrawLayerName: DontDraw
   playerGraphics: {fileID: 4129634145274502686}
   playerUIPrefab: {fileID: 137168699269574779, guid: 4c265dce8395f9c40bf76f6fe91a7677, type: 3}
+  playerUIInstance: {fileID: 0}
 --- !u!143 &3463374387772259683
 CharacterController:
   m_ObjectHideFlags: 0

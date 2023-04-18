@@ -19,9 +19,22 @@ public class PlayerController : NetworkBehaviour
 
    [SerializeField] private float thrusterForce = 1000f;
    
+   [SerializeField]
+   private float thrusterFuelBurnSpeed = 1f;
+   [SerializeField] 
+   private float thrusterFuelRegenSpeed = 0.3f;
+   private float thrusterFuelAmount = 1f;
+
+   public float GetThrusterFuelAmount()
+   {
+      return thrusterFuelAmount;
+   }
+   
    [Header("Joint Options")]
    [SerializeField] private float jointSpring = 20f;
    [SerializeField] private float jointMaxForce = 50f;
+
+   
    
    //récupère les scripts du player motor
    private PlayerMotor motor;
@@ -44,6 +57,17 @@ public class PlayerController : NetworkBehaviour
 
    private void Update()
    {
+
+      RaycastHit _hit;
+      if (Physics.Raycast(transform.position,Vector3.down, out _hit,100f))
+      {
+         joint.targetPosition = new Vector3(0f, -_hit.point.y, 0f);
+      }
+      else
+      {
+         joint.targetPosition = new Vector3(0f, 0f, 0f);
+      }
+      
       //If we are not the main client, don't run this method
       if (!isLocalPlayer)
       {
@@ -75,15 +99,23 @@ public class PlayerController : NetworkBehaviour
 
       //calcul de la force du jetpack/thruster
       Vector3 thrusterVelocity = Vector3.zero;
-      if (Input.GetButton("Jump"))
+      if (Input.GetButton("Jump") && thrusterFuelAmount>0)
       {
-         thrusterVelocity = Vector3.up * thrusterForce;
-         SetJointSettings(0f);
+         thrusterFuelAmount -= thrusterFuelBurnSpeed * Time.deltaTime;
+
+         if (thrusterFuelAmount>=0.01f)
+         {
+            thrusterVelocity = Vector3.up * thrusterForce;
+            SetJointSettings(0f);
+         }
+         
       }
       else
       {
+         thrusterFuelAmount += thrusterFuelRegenSpeed * Time.deltaTime;
          SetJointSettings(jointSpring);
       }
+      thrusterFuelAmount = Mathf.Clamp(thrusterFuelAmount, 0f, 1f);
 
       //appliquer la force du jetpack
       motor.ApplyThruster(thrusterVelocity);
