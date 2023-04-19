@@ -29,12 +29,17 @@ public class PlayerShoot : NetworkBehaviour
     }
 
     private void Update()
-    {
+    {currentWeapon = weaponManager.GetCurrentWeapon();
         if (PauseMenu.isOn)
         {
             return;
         }
-        currentWeapon = weaponManager.GetCurrentWeapon();
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            StartCoroutine(weaponManager.Reload());
+            return;
+        }
 
         if (currentWeapon.fireRate<=0f)
         {
@@ -60,6 +65,16 @@ public class PlayerShoot : NetworkBehaviour
     [Client]
     private void Shoot()
     {
+        if (!isLocalPlayer || weaponManager.isReloading)
+        {return;}
+
+        if (weaponManager.currentMagazineSize <= 0)
+        {
+           StartCoroutine(weaponManager.Reload());
+            return;
+        }
+
+        weaponManager.currentMagazineSize--;
         Debug.Log("Tir effectué");
         RaycastHit hit;
 

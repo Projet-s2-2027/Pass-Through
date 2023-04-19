@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using Mirror;
 
@@ -11,9 +12,13 @@ public class WeaponManager : NetworkBehaviour
     
     [SerializeField] 
     private Transform weaponHolder;
+
+    public bool isReloading = false;
     
     [SerializeField]
     private string weaponLayerName = "Weapon";
+
+    [SerializeField] public int currentMagazineSize;
 
     
     void Start()
@@ -37,6 +42,17 @@ public class WeaponManager : NetworkBehaviour
         {
             Util.SetLayerRecursively(weaponIns,LayerMask.NameToLayer(weaponLayerName));
         }
+    }
+
+    public IEnumerator Reload()
+    {
+        if (isReloading)
+        {yield break;}
+
+        isReloading = true;
+        yield return new WaitForSeconds(currentWeapon.reloadTime);
+        currentMagazineSize = currentWeapon.magazineSize;
+        isReloading = false;
     }
     
 }
