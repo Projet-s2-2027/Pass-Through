@@ -11,7 +11,7 @@ public class PlayerShoot : NetworkBehaviour
     [SerializeField]
     private LayerMask mask;
     
-    private PlayerWeapon currentWeapon;
+    private weaponData currentWeapon;
     private WeaponManager weaponManager;
 
     // Start is called before the first frame update
