@@ -2,13 +2,17 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - GameManager
+    - Killfeed
+    - KillfeedItem
     - PauseMenu
     - Player
     - PlayerController
     - PlayerMotor
+    - PlayerScoreBoardItem
     - PlayerSetup
     - PlayerShoot
     - PlayerUI
+    - ScoreBoard
     - StreamVideo
     - WeaponManager
     Mirror.Components.dll:
@@ -36,8 +40,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Assembly-CSharp:
     - MatchSettings
@@ -48,6 +54,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
@@ -58,8 +65,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: LeaveRoomButton
+    fullTypeName: PlayerUI
+    methodName: TogglePauseMenu
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: LeaveRoomButton
@@ -96,6 +103,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
+      Script: {instanceID: 1732}
+    - Class: 114
       Script: {instanceID: 2086}
     - Class: 114
       Script: {instanceID: 2378}
@@ -124,19 +133,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6112}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 6440}
     - Class: 114
-      Script: {instanceID: 7450}
+      Script: {instanceID: 6876}
     - Class: 114
-      Script: {instanceID: 7748}
+      Script: {instanceID: 7058}
     - Class: 114
-      Script: {instanceID: 8102}
+      Script: {instanceID: 7452}
     - Class: 114
-      Script: {instanceID: 8286}
+      Script: {instanceID: 7750}
     - Class: 114
-      Script: {instanceID: 25480}
+      Script: {instanceID: 8104}
+    - Class: 114
+      Script: {instanceID: 8288}
+    - Class: 114
+      Script: {instanceID: 28072}
+    - Class: 114
+      Script: {instanceID: 29362}
+    - Class: 114
+      Script: {instanceID: 31176}
+    - Class: 114
+      Script: {instanceID: 31190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -165,7 +184,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 329
       Script: {instanceID: 0}
-    Assets/TestScene.unity:
+    Assets/Scenes/TestScene Pricipal.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -201,9 +220,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 6134}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6440}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -619,7 +638,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: db348c86af6070dae95f664f5eeba99c
+      Hash: 46e0f1fbcbbde11d46f523cbfc31515d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerUI
@@ -919,7 +938,7 @@ ScriptsOnlyBuild:
     className: NavMeshModifierVolume
   - hash:
       serializedVersion: 2
-      Hash: 0c53c2debe0e1070503093d5a82ddabe
+      Hash: fbbf43c9c0fefbb243c72da0002dd4ca
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -1001,6 +1020,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components
     namespaceName: Mirror
     className: NetworkMatch
+  - hash:
+      serializedVersion: 2
+      Hash: cc0e2eb0e7289b6e34390f604f416990
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1357,12 +1382,30 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: cc0e2eb0e7289b6e34390f604f416990
+      Hash: c2a177a4b826286f26e62ac7e3aae6cc
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PauseMenu
+    className: ScoreBoard
+  - hash:
+      serializedVersion: 2
+      Hash: 5ca72011e2bba47997d39555b6c41de6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerScoreBoardItem
+  - hash:
+      serializedVersion: 2
+      Hash: bed6dcdaba3e5230be6ea6ac62c7e1e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Killfeed
+  - hash:
+      serializedVersion: 2
+      Hash: f9004df9c1da7a82ca183cf13c16a5c4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KillfeedItem
   platform: 19
   scenePathNames:
   - Assets/Scenes/Lobby.unity
-  - Assets/TestScene.unity
+  - Assets/Scenes/TestScene Pricipal.unity
   playerPath: C:/Users/Thomas/Projet_S2/Pass-Through/Pass Through/Build/Pass Through.exe

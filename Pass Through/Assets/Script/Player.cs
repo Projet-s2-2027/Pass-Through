@@ -7,24 +7,31 @@ using Unity.Properties;
 
 public class Player : NetworkBehaviour
 {
-    [SerializeField]
-    private float maxHealth = 100f;
-
-    [SyncVar]
-    private float currentHealth;
-    private bool _isDead=false;
     
-    [SerializeField]
-    private Behaviour[] disableOnDeath;
-    private bool[] wasEnableOnStart;
 
-    private bool firstSetup = true;
+    
+    private bool _isDead=false;
     public bool isDead
     {
         get { return _isDead; }
         protected set { _isDead = value; }
 
     }
+    [SerializeField]
+    private float maxHealth = 100f;
+    
+    [SyncVar]
+    private float currentHealth;
+
+    public int kills;
+    public int deaths;
+    
+    [SerializeField]
+    private Behaviour[] disableOnDeath;
+    private bool[] wasEnableOnStart;
+
+    private bool firstSetup = true;
+    
 
     public void Setup()
     {
@@ -107,12 +114,12 @@ public class Player : NetworkBehaviour
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
-            RpcTakeDamage(999);
+            RpcTakeDamage(999,"Joueur");
         }
     }
 
     [ClientRpc]
-    public void RpcTakeDamage(float amount)
+    public void RpcTakeDamage(float amount, string sourceID)
     {
         if (isDead)
         {
@@ -123,14 +130,25 @@ public class Player : NetworkBehaviour
 
         if (currentHealth<=0)
         {
-            Die();
+            Die(sourceID);
         }
         
     }
 
-    private void Die()
+    private void Die(string sourceID)
     {
         isDead = true;
+
+        Player sourcePlayer = GameManager.GetPlayer(sourceID);
+        if (sourcePlayer!=null)
+        {
+            sourcePlayer.kills++;
+            GameManager.instance.onPlayerKilledCallback.Invoke(transform.name, sourcePlayer.name);
+        }
+        
+        
+        deaths++;
+        
 
         for (int i = 0; i < disableOnDeath.Length; i++)
         {

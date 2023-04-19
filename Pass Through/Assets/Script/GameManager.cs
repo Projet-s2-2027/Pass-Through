@@ -1,6 +1,8 @@
-using System;
+ 
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +16,10 @@ public class GameManager : MonoBehaviour
     
     [SerializeField]
     private GameObject sceneCamera;
+
+    public delegate void OnPlayerKilledCallback(string player, string source);
+
+    public OnPlayerKilledCallback onPlayerKilledCallback;
 
     private void Awake()
     {
@@ -51,6 +57,11 @@ public class GameManager : MonoBehaviour
     public static Player GetPlayer(string playerId)
     {
         return players[playerId];
+    }
+
+    public static Player[] GetAllPlayers()
+    {
+        return players.Values.ToArray();
     }
 
 }

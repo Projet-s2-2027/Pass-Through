@@ -15,7 +15,7 @@ C:/Users/Thomas/Projet_S2/Pass-Through/Pass Through
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55263
+60494
 Successfully changed project path to: C:/Users/Thomas/Projet_S2/Pass-Through/Pass Through
 C:/Users/Thomas/Projet_S2/Pass-Through/Pass Through
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Thomas/Projet_S2/Pass-Through/Pass Through
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14936] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 1822008470 [EditorId] 1822008470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5NLCA34) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11296] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 181603967 [EditorId] 181603967 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5NLCA34) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14936] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 1822008470 [EditorId] 1822008470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5NLCA34) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11296] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 181603967 [EditorId] 181603967 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5NLCA34) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1154.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010942 seconds.
-- Loaded All Assemblies, in  2.290 seconds
+Registered in 0.009792 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.347 seconds
+- Finished resetting the current domain, in  0.311 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1546ms)
-		BeginReloadAssembly (990ms)
+	ReloadAssembly (220ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (988ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (732ms)
-				TypeCache.Initialize (731ms)
-					TypeCache.ScanAssembly (729ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (141ms)
+					TypeCache.ScanAssembly (139ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (274ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,72 +109,72 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B8E56EA010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000020E64518470 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E56FBDF0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000020E6452A250 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E60CB010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000020E6480E010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E572D020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000020E6480E010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E56FBDF0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000020E6452A250 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E56FBDF0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020E6452A250 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E56FBDF0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020E649F8A20 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E56FBDF0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000020E64A10830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E572D020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000020E63F53820 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E72A6830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000020E6483A620 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6DEE020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000020E64593010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E576E430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000020E63E67390 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5BE9BA0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000020E6484EC30 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5DF6010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000020E65312010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5876010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000020E65363420 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E58ACE30 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000020E656C2010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E58ACE30 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000020E64861E40 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5F84020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000020E656F0640 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5F90400 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000020E4002D290 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6E2F430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000020E4004CAA0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6E2F430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000020E4004CAA0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6E2F430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-0000020E4004CAA0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6E2F430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020E4006D6B0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73C1C50 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000020E40085EC0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73D1280 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000020E400954F0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73D1280 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000020E3FEE1010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5EDF430 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020E400F6900 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5EEC840 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000020E40103D10 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73D1280 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000020E3FF19A20 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73D7290 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-0000020E3FF1FA30 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E73E30A0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000020E3FF2B840 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.391 seconds
-Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.807 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -189,184 +189,57 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.558 seconds
+- Finished resetting the current domain, in  0.549 seconds
 Domain Reload Profiling:
-	ReloadAssembly (241ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (231ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		LoadAllAssembliesAndSetupDomain (2146ms)
-			LoadAssemblies (1802ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (572ms)
+			LoadAssemblies (306ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (410ms)
-				TypeCache.Initialize (385ms)
-					TypeCache.ScanAssembly (380ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (332ms)
+				TypeCache.Initialize (309ms)
+					TypeCache.ScanAssembly (304ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (400ms)
+			SetupLoadedEditorAssemblies (388ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3884.
-Memory consumption went from 132.3 MB to 132.2 MB.
-Total: 2.990100 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.231100 ms MarkObjects: 2.447200 ms  DeleteObjects: 0.050000 ms)
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3888.
+Memory consumption went from 132.0 MB to 132.0 MB.
+Total: 3.667800 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.266400 ms MarkObjects: 3.024000 ms  DeleteObjects: 0.070600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ScoreBoard.cs: 1853a0583c6465f1c9f72c44749cad05 -> 2ca190c64ec05b6119eb41d7e54ba2d4
+  custom:scripting/monoscript/fileName/KillfeedItem.cs: 4e4b02d9860cf32405277d72cbe647c0 -> 45cdf73dd03df0a6b48b6a1f0ea8ce16
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayerScoreBoardItem.cs: 28e52c5e0490a9138ce6ceb32a09c050 -> 9999f34950420fd220ad420dd0196570
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Killfeed.cs: 6ef90ba53d17bff9f8e19b73e039a4a0 -> f06edb67ede0aba51ed23717907a291d
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: bd01f9c90c3308a3338ec23fe4fe27ee -> f4e3b71dac09a86520a968c9806bc2f0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B8E5DA2020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5B2F030 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8C1B493C0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E572D020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5B37040 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E8AF3820 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1382020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1382020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8C1B493C0 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1A77020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E6DEE020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1382020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E75E9010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F18D4050 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E75E9010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5B9B060 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E82CC030 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E5BA2F70 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E75E9010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E7C1E020 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E7C24830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8E7C24830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1995010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1995010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F16B4830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F215B050 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1961010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F2193A60 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F16B4830 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F1961010 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B8F196CE20 doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Thomas\Projet_S2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.004 seconds
-Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.768 seconds
-Domain Reload Profiling:
-	ReloadAssembly (475ms)
-		BeginReloadAssembly (400ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		LoadAllAssembliesAndSetupDomain (526ms)
-			LoadAssemblies (316ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-				TypeCache.Initialize (263ms)
-					TypeCache.ScanAssembly (258ms)
-				ResolveRequiredComponents (5ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3387 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3887.
-Memory consumption went from 130.8 MB to 130.7 MB.
-Total: 3.516900 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.362800 ms MarkObjects: 2.737400 ms  DeleteObjects: 0.055100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/PauseMenu.cs: 98eb05014b59061f55650caec75a10bf -> f5f409f6f97ee1b3b146d50574a93841
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 36404.313418 seconds.
-  path: Assets/TestScene.unity
-  artifactKey: Guid(1763cb1121b72ce448095db078700ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TestScene.unity using Guid(1763cb1121b72ce448095db078700ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595a274a05fff5a8b66de9c262dde480') in 0.002684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
