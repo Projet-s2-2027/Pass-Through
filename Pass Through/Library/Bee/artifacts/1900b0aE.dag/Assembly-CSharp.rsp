@@ -391,6 +391,7 @@
 "Assets/Scenes/Portal.cs"
 "Assets/Scenes/PortalTraveller.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/IAController.cs"
 "Assets/Script/Killfeed.cs"
 "Assets/Script/KillfeedItem.cs"
 "Assets/Script/MatchSettings.cs"
