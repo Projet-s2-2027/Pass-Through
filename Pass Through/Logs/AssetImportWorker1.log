@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'fr' Physical Memory: 16309 MB
+OS: 'Windows 11  (10.0.22624) 64bit Core' Language: 'fr' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/proj/jeux video/Pass-Through/Pass-Through/Pass Through
+C:/Users/Cameron/Desktop/Jeu-s2/Pass-Through/Pass Through
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61064
-Successfully changed project path to: D:/proj/jeux video/Pass-Through/Pass-Through/Pass Through
-D:/proj/jeux video/Pass-Through/Pass-Through/Pass Through
+62903
+Successfully changed project path to: C:/Users/Cameron/Desktop/Jeu-s2/Pass-Through/Pass Through
+C:/Users/Cameron/Desktop/Jeu-s2/Pass-Through/Pass Through
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,61 @@ D:/proj/jeux video/Pass-Through/Pass-Through/Pass Through
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27348] Host "[IP] 25.33.113.139 [Port] 0 [Flags] 2 [Guid] 3642725740 [EditorId] 3642725740 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H0D6PHV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11936] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 341981027 [EditorId] 341981027 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-Cameron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27348] Host "[IP] 25.33.113.139 [Port] 0 [Flags] 2 [Guid] 3642725740 [EditorId] 3642725740 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H0D6PHV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11936] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 341981027 [EditorId] 341981027 [Version] 1048832 [Id] WindowsEditor(7,Lenovo-Cameron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 11.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/proj/jeux video/Pass-Through/Pass-Through/Pass Through/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Cameron/Desktop/Jeu-s2/Pass-Through/Pass Through/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 570 Series (ID=0x67df)
-    Vendor:   ATI
-    VRAM:     8170 MB
-    Driver:   31.0.14043.1000
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1179
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017454 seconds.
-- Loaded All Assemblies, in  0.590 seconds
+Registered in 0.010528 seconds.
+- Loaded All Assemblies, in  0.724 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.500 seconds
+- Finished resetting the current domain, in  0.597 seconds
 Domain Reload Profiling:
-	ReloadAssembly (346ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (412ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (144ms)
+			LoadAssemblies (183ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-				TypeCache.Initialize (221ms)
-					TypeCache.ScanAssembly (219ms)
+			SetupTypeCache (293ms)
+				TypeCache.Initialize (292ms)
+					TypeCache.ScanAssembly (289ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (396ms)
+			SetupLoadedEditorAssemblies (476ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (12ms)
+				SetLoadedEditorAssemblies (16ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,70 +109,64 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-00000184E80F2C90 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000015EE5A34C50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E8104A60 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000015EE4DD1020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E82F0620 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000015EE4DD1020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E85D1020 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000015EE5A34C50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E8104A60 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000015EE5E00050 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E8104A60 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000015EE4DD1020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E87CE650 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000015EE4DE8E30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E82F0620 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000015EE4A21DF0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E85D1020 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000015EE4955020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E811D020 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000015EE4955020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E63B4820 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000015EE4E1BF20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E8139640 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E68E1010 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E68E1010 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000015EE4831020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E68E1010 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000015EE44AB050 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E690F7A0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000015EE5A34C50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E690F7A0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000015EE5A34C50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E6155360 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000015EE5B3C020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E59E0080 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000015EE49A2210 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E59FF890 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000015EE49A2210 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E59FF890 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000015EE49AB0F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E5A026A0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-0000015EE49AB0F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E63CD030 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000015EE5B94C50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E63D7440 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000015EE56F1490 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E63D7440 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000015EE56F1490 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E837B010 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000015EE57164B0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E839FAA0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000015EE571C110 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E8388420 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E83A78B0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000184E83B36C0 doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\proj\jeux video\Pass-Through\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.322 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.645 seconds
+Refreshing native plugins compatible for Editor in 9.38 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -187,47 +181,960 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.945 seconds
+- Finished resetting the current domain, in  1.138 seconds
 Domain Reload Profiling:
-	ReloadAssembly (398ms)
-		BeginReloadAssembly (236ms)
+	ReloadAssembly (473ms)
+		BeginReloadAssembly (286ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		LoadAllAssembliesAndSetupDomain (919ms)
-			LoadAssemblies (469ms)
+			CreateAndSetChildDomain (42ms)
+		LoadAllAssembliesAndSetupDomain (1167ms)
+			LoadAssemblies (584ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (564ms)
-				TypeCache.Initialize (526ms)
-					TypeCache.ScanAssembly (517ms)
+			SetupTypeCache (719ms)
+				TypeCache.Initialize (671ms)
+					TypeCache.ScanAssembly (663ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (803ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 8.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3894.
+Memory consumption went from 132.5 MB to 132.4 MB.
+Total: 5.801900 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.436700 ms MarkObjects: 4.893600 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EE4D6FC30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF025D590 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0175FB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F31A20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6152020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6152020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6152020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF025D590 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6A650C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75BE020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFD47030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE72E0020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFBF3070 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75C8E80 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75C8E80 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE72E0020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE426F830 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6649DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE49AB0F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE49AB0F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC0372830 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFB05020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE701A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6649DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEEF43420 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.574 seconds
+Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (1038ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		LoadAllAssembliesAndSetupDomain (1315ms)
+			LoadAssemblies (604ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (819ms)
+				TypeCache.Initialize (802ms)
+					TypeCache.ScanAssembly (789ms)
+				ResolveRequiredComponents (16ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (836ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (20ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 12.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.7 KB). Loaded Objects now: 3897.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 5.297000 ms (FindLiveObjects: 0.455300 ms CreateObjectMapping: 0.424100 ms MarkObjects: 4.334600 ms  DeleteObjects: 0.081000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015F31CC1C70 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7783020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EE60D0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F31A20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75BE020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31CB5710 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31CB5710 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7783020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E2BDF0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E6C010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6106020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEEEB0010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFBF3070 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE77BA630 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E6C010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4CC3030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFE3DAC0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E86440 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC03A8DE0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1226040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFE442D0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6106020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A85E10 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE770EA30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.090 seconds
+Refreshing native plugins compatible for Editor in 9.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (892ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		LoadAllAssembliesAndSetupDomain (1005ms)
+			LoadAssemblies (566ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+				TypeCache.Initialize (614ms)
+					TypeCache.ScanAssembly (603ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (833ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 11.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.7 KB). Loaded Objects now: 3900.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 7.780700 ms (FindLiveObjects: 0.724500 ms CreateObjectMapping: 0.616600 ms MarkObjects: 6.319300 ms  DeleteObjects: 0.118700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EF1021340 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DEDDB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF18B8030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F31A20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75B9F40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1226040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1226040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DEDDB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1450BD0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E81860 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7576040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4CC3030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE56F4030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4224010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E253C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6A650C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE40B9010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6F3C040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFB71010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5D01030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6583820 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DB8A70 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE77BBA30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE77BBA30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.222 seconds
+Refreshing native plugins compatible for Editor in 10.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (955ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		LoadAllAssembliesAndSetupDomain (1098ms)
+			LoadAssemblies (545ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+				TypeCache.Initialize (666ms)
+					TypeCache.ScanAssembly (654ms)
+				ResolveRequiredComponents (17ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3903.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 4.507600 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.339100 ms MarkObjects: 3.739000 ms  DeleteObjects: 0.073700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EEF95A040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DEDDB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF18B8030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF95A040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7096030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DEDDB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E2B4F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE711C020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE498FE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0D83E30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0152010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31D2DD00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF95A040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF95A040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE632F020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC03A8DE0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE57E4030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFB71010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF106C8C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DB8A70 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6C6FE40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF106C8C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF106C8C0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.174 seconds
+Refreshing native plugins compatible for Editor in 10.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (790ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		LoadAllAssembliesAndSetupDomain (1207ms)
+			LoadAssemblies (613ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (718ms)
+				TypeCache.Initialize (705ms)
+					TypeCache.ScanAssembly (691ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (773ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 10.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3906.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 5.870800 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.411900 ms MarkObjects: 4.960300 ms  DeleteObjects: 0.089600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EBFFF9020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEEE53ED0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF155A010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFFF9020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE701A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1707040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE63DB020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A10080 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6106020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6465010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF068A060 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFFF9020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F31A20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4CC3030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE701A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF8F00B0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE701A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFE3DAC0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31CB6BF0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EB3640 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE43BC080 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF900020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF900020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.046 seconds
+Refreshing native plugins compatible for Editor in 9.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (953ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		LoadAllAssembliesAndSetupDomain (926ms)
+			LoadAssemblies (470ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+				TypeCache.Initialize (578ms)
+					TypeCache.ScanAssembly (566ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (816ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 10.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.6 KB). Loaded Objects now: 3909.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 4.389000 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.360000 ms MarkObjects: 3.584700 ms  DeleteObjects: 0.071900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EE3F940D0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0FBE230 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F32771010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F31A20 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0E98750 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1707040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE63DB020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6644030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFC50A40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4CC3030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0688050 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF11FA050 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7182030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5F8B020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFBD5010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0920020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC040DE50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFE3DAC0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF395020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF089E010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6C6FE40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF173FA50 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EA9620 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.089 seconds
+Refreshing native plugins compatible for Editor in 8.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (770ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		LoadAllAssembliesAndSetupDomain (1166ms)
+			LoadAssemblies (540ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (729ms)
+				TypeCache.Initialize (719ms)
+					TypeCache.ScanAssembly (704ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (814ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.7 KB). Loaded Objects now: 3912.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 6.635000 ms (FindLiveObjects: 0.527600 ms CreateObjectMapping: 0.535200 ms MarkObjects: 5.487200 ms  DeleteObjects: 0.082800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EF05D8020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF11C2010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF110C6B0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE772A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A7E020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE45D4DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE45D4DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF11C2010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EBFC50A40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A10080 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF195C020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31CA4010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE45C3030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE772A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE772A020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5B12030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF8E80A0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF900020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A7E020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5D01030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE47B6010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF184E030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEEBD2020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE47B6010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE47B6010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.180 seconds
+Refreshing native plugins compatible for Editor in 8.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1167ms)
+		BeginReloadAssembly (955ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (78ms)
+		LoadAllAssembliesAndSetupDomain (1008ms)
+			LoadAssemblies (589ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+				TypeCache.Initialize (623ms)
+					TypeCache.ScanAssembly (613ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (541ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 11.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3915.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 7.324000 ms (FindLiveObjects: 0.501400 ms CreateObjectMapping: 0.569700 ms MarkObjects: 6.174300 ms  DeleteObjects: 0.076600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EF0EA0760 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B1DBB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF016C220 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A7E020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE45D4DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE45D4DA0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF11C2010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFDF6010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE711C020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF195C020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F31CA4010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0CEB010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF3FF030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF267020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE49A1010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0A7E020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5D01030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1748070 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B1DBB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE75B9F40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1748070 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC0415E60 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.015 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (841ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		LoadAllAssembliesAndSetupDomain (956ms)
+			LoadAssemblies (548ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (577ms)
+				TypeCache.Initialize (568ms)
+					TypeCache.ScanAssembly (557ms)
 				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (654ms)
+			SetupLoadedEditorAssemblies (779ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (7ms)
+				SetLoadedEditorAssemblies (10ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (534ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 9.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3894.
-Memory consumption went from 132.4 MB to 132.4 MB.
-Total: 4.379300 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.173900 ms MarkObjects: 3.686700 ms  DeleteObjects: 0.083600 ms)
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3918.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 6.468500 ms (FindLiveObjects: 0.481900 ms CreateObjectMapping: 0.455900 ms MarkObjects: 5.454700 ms  DeleteObjects: 0.074600 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -239,9 +1146,479 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 270229.661888 seconds.
-  path: Assets/Scenes/Map.unity
-  artifactKey: Guid(ee76b13bae7998945ade00bb4aa1b57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map.unity using Guid(ee76b13bae7998945ade00bb4aa1b57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937255092727f6d20b96e433d2b6b704') in 0.002632 seconds
+  Time since last request: 2261.556790 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(eea8968b083420c47b1d13a02608b6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(eea8968b083420c47b1d13a02608b6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Player's NetworkTransform component has obsolete .clientAuthority enabled. Please disable it and set SyncDirection to ClientToServer instead.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Mirror.NetworkTransformBase:OnValidate () (at Assets/Mirror/Components/NetworkTransformBase.cs:89)
+
+(Filename: Assets/Mirror/Components/NetworkTransformBase.cs Line: 89)
+
+Player's NetworkTransform component has obsolete .clientAuthority enabled. Please disable it and set SyncDirection to ClientToServer instead.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Mirror.NetworkTransformBase:OnValidate () (at Assets/Mirror/Components/NetworkTransformBase.cs:89)
+
+(Filename: Assets/Mirror/Components/NetworkTransformBase.cs Line: 89)
+
+ -> (artifact id: 'fbed20dd001a12ceb8cb0b9b9132154f') in 0.678398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 595
+========================================================================
+Received Import Request.
+  Time since last request: 96.185669 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ccc47ed4541ef758dda4c6a9a5ea5') in 0.030277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 2.455139 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547f6152564d6e51940930d083c00ab') in 0.027437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 10.347870 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdddaa7cb0251bedf3df619809ccf50') in 0.027437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 2.982941 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17bf5b52f05578403e2c92a89735beb') in 0.019598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 2.627312 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de8f14aa6a3fe1b89f9f954861bf071') in 0.011402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 6.681255 seconds.
+  path: Assets/Prefabs/PlayerUI.prefab
+  artifactKey: Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerUI.prefab using Guid(4c265dce8395f9c40bf76f6fe91a7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c49bb135375496e007bda102fabedb5') in 0.010950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EBFE45AD0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B1DBB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1707040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE49A1010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF8E80A0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4D6FC30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4D6FC30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF695020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE63DB020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEFB3D030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7576040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6465010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015F32646010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5E65010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE5E65010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EB3640 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF32B010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE47B6010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF8E80A0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE65E3DB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EA0760 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF00F030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE43BC080 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0EA0760 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE7911030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.348 seconds
+Refreshing native plugins compatible for Editor in 11.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (816ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		LoadAllAssembliesAndSetupDomain (1366ms)
+			LoadAssemblies (763ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (713ms)
+				TypeCache.Initialize (698ms)
+					TypeCache.ScanAssembly (687ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 11.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (42.2 KB). Loaded Objects now: 3934.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 6.292700 ms (FindLiveObjects: 0.411200 ms CreateObjectMapping: 0.601200 ms MarkObjects: 5.069000 ms  DeleteObjects: 0.209000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0D1CE90 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1707040 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF495020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4D6FC30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4D6FC30 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0DEDDB0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE63DB020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE59E8010 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6F38030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF1006280 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC06A5D40 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE6FB6030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0C41450 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0B5DC00 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE70B8020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE3FC7720 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF05D8020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF495020 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EF0C053F0 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC0373030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EEF00F030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EE4388050 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC0373030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015EC0373030 doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\Desktop\Jeu-s2\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.314 seconds
+Refreshing native plugins compatible for Editor in 11.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (899ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		LoadAllAssembliesAndSetupDomain (1195ms)
+			LoadAssemblies (679ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (722ms)
+				TypeCache.Initialize (708ms)
+					TypeCache.ScanAssembly (696ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (755ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3937.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 4.802200 ms (FindLiveObjects: 0.560200 ms CreateObjectMapping: 0.411500 ms MarkObjects: 3.703800 ms  DeleteObjects: 0.124800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399.656393 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Engie.fbx
+  artifactKey: Guid(33b6b3aa0156c6146b8db27ca2dff66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Engie.fbx using Guid(33b6b3aa0156c6146b8db27ca2dff66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8147341de043ba58e795a352beb6966d') in 0.294967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 303
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Robert.fbx
+  artifactKey: Guid(c31501b18d95d82419dad970a9527842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Robert.fbx using Guid(c31501b18d95d82419dad970a9527842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf006b1a9584244241ca1814715946b') in 0.076941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 37.609150 seconds.
+  path: Assets/Imports/G28 Rifle/G28 Rifle_fbx.FBX
+  artifactKey: Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/G28 Rifle/G28 Rifle_fbx.FBX using Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f9bcb7009e21d2e848f7d504b113c') in 0.116434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/G28 Rifle/G28 Rifle_fbx_prefab.prefab
+  artifactKey: Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/G28 Rifle/G28 Rifle_fbx_prefab.prefab using Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f047b7358a92d217136e22f39f77be') in 0.044140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.615003 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_AlbedoTransparency.png
+  artifactKey: Guid(05694d3d0fd443d4fb8e7a3d9271a870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_AlbedoTransparency.png using Guid(05694d3d0fd443d4fb8e7a3d9271a870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428117c6e1a2e59c9f0605aa41e29cb7') in 0.028631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_AO.png
+  artifactKey: Guid(13830bcfb3a8e004d93ff25bad454c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_AO.png using Guid(13830bcfb3a8e004d93ff25bad454c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434810ef05a3ecf9cf0f634d34256a51') in 0.026022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_MetallicSmoothness.png
+  artifactKey: Guid(9492c443a3af7e54baa12dc95bdf7660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_MetallicSmoothness.png using Guid(9492c443a3af7e54baa12dc95bdf7660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d61ae38f130eeda1b938bd0d4446fe') in 0.023614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_Height.png
+  artifactKey: Guid(d9871e1eeb18283408b1fd2a90f28592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_Height.png using Guid(d9871e1eeb18283408b1fd2a90f28592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f5a309d731792e49c9fa70675300ea') in 0.026435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_Roughness.png
+  artifactKey: Guid(58580c42390318041a6c816d6abd9ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_Roughness.png using Guid(58580c42390318041a6c816d6abd9ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa917ce71dd93dd6df6a52c04800bc60') in 0.026640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MCX_MatCanebrake_AlbedoTransparency.png
+  artifactKey: Guid(72b3c609c206e9a42a6628f0def5ee06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MCX_MatCanebrake_AlbedoTransparency.png using Guid(72b3c609c206e9a42a6628f0def5ee06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cb5fc26fa42b53b9a0770a696e81da') in 0.021947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_AO.png
+  artifactKey: Guid(0452adfd7476d654ca6a702850f25e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MCX_Mat_AO.png using Guid(0452adfd7476d654ca6a702850f25e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422918e7749d6df7bf92c599eaa35a3e') in 0.024983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_NormalDirectX.png
+  artifactKey: Guid(bf066f398c8409a42b36b797895ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_NormalDirectX.png using Guid(bf066f398c8409a42b36b797895ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989c9e70fc533bdd14345959f3948fbf') in 0.031012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_Roughness.png
+  artifactKey: Guid(f93e7d11111564d47a022d4640605868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_Roughness.png using Guid(f93e7d11111564d47a022d4640605868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e2ef22f368f0a0d36bc73715561ad2') in 0.025015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_Height.png
+  artifactKey: Guid(8b69847459ee14e4090c46ab5d24043a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/AKMDis_Mat_Height.png using Guid(8b69847459ee14e4090c46ab5d24043a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287bb47594cd539bf864cda3ac3b79da') in 0.024345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_AO.png
+  artifactKey: Guid(eaef7c7c0bd40254c8501a87135ad232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_AO.png using Guid(eaef7c7c0bd40254c8501a87135ad232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c584542f5fb4b0013bf408a410d4eafd') in 0.027533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_Emission.png
+  artifactKey: Guid(bfb68bdaa38a8b84a82ca22a83ad039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Textures/MP7Dis_Material_Emission.png using Guid(bfb68bdaa38a8b84a82ca22a83ad039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999d1042e28ce43bb4094da944d24481') in 0.029024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.588065 seconds.
+  path: Assets/Imports/MP7AKM/MP7/Prefabs/MCX.prefab
+  artifactKey: Guid(d6aaacc9a8182ac49b2a4e370c02d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/MP7AKM/MP7/Prefabs/MCX.prefab using Guid(d6aaacc9a8182ac49b2a4e370c02d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54f5ad70b3c8119904a16697c9c6b21') in 0.101666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 237
+========================================================================
+Received Import Request.
+  Time since last request: 10.437123 seconds.
+  path: Assets/Imports/Reticulcarburant/GUI/HealthIcon.png
+  artifactKey: Guid(91dc2ec8f6b708141a9c0e7316e27f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Reticulcarburant/GUI/HealthIcon.png using Guid(91dc2ec8f6b708141a9c0e7316e27f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74f13ccd8c8ab9f743c11aa5a6cce5d') in 0.048318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.385530 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Engie.mat
+  artifactKey: Guid(7a36509ebabb0ef40b9c5194eadf8229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Engie.mat using Guid(7a36509ebabb0ef40b9c5194eadf8229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b16dc51d084c82119810292d1dd00bd') in 0.022103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Robert.mat
+  artifactKey: Guid(0dd2555d0ab8c1e489bf47abc4bd3626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Robert.mat using Guid(0dd2555d0ab8c1e489bf47abc4bd3626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eb126bc9bc626464854b5f6482d0cf') in 0.018325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.212688 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Prefabs/Engie.prefab
+  artifactKey: Guid(c9d8cd1303fa39d46b1243d43b65132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Prefabs/Engie.prefab using Guid(c9d8cd1303fa39d46b1243d43b65132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af271e6bc4f79f9c27e636b7ce79b463') in 0.031425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 303
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Prefabs/Paperman.prefab
+  artifactKey: Guid(604af0702049fbf47996180b57272c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Prefabs/Paperman.prefab using Guid(604af0702049fbf47996180b57272c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ba854318041ff69b0e2d6c8b84aa17') in 0.034134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
