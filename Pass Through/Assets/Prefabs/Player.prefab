@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2739895275441834649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.199, y: -0.681, z: 0.47}
+  m_LocalPosition: {x: 0.199, y: -0.681, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,7 +75,7 @@ Transform:
   - {fileID: 847099513162431611}
   - {fileID: 5040823880365059859}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4857369826256213401
 Rigidbody:
@@ -307,7 +307,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 1
+  m_Height: 0
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -442,7 +442,7 @@ CapsuleCollider:
   m_Radius: 0.30782485
   m_Height: 1.0061898
   m_Direction: 1
-  m_Center: {x: 0.0036094189, y: -0.004211068, z: 0.056126267}
+  m_Center: {x: 0.0036094189, y: 0, z: 0.056126267}
 --- !u!114 &3509322405582482348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 26.991467
+  field of view: 33
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -614,7 +614,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7721159822825482756}
   m_LocalRotation: {x: 0.052081313, y: -0, z: -0, w: 0.99864286}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -685,8 +685,16 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c31501b18d95d82419dad970a9527842, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c31501b18d95d82419dad970a9527842, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c31501b18d95d82419dad970a9527842, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c31501b18d95d82419dad970a9527842, type: 3}
       propertyPath: m_LocalPosition.x
