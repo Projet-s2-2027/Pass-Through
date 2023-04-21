@@ -7,16 +7,14 @@ using Unity.Properties;
 
 public class Player : NetworkBehaviour
 {
-    
-
-    
-    private bool _isDead=false;
+    [SyncVar]
+    private bool _isDead = false;
     public bool isDead
     {
         get { return _isDead; }
         protected set { _isDead = value; }
-
     }
+
     [SerializeField]
     private float maxHealth = 100f;
     
@@ -71,7 +69,6 @@ public class Player : NetworkBehaviour
         SetDefault();
     }
 
-    
     public void SetDefault()
     {
         isDead = false;
@@ -88,8 +85,6 @@ public class Player : NetworkBehaviour
             col.enabled = true;
         }
         
-        
-
         if (isLocalPlayer)
         {
             GameManager.instance.SetSceneCameraActive(false);
@@ -150,9 +145,7 @@ public class Player : NetworkBehaviour
             GameManager.instance.onPlayerKilledCallback.Invoke(transform.name, sourcePlayer.name);
         }
         
-        
         deaths++;
-        
 
         for (int i = 0; i < disableOnDeath.Length; i++)
         {
@@ -175,9 +168,6 @@ public class Player : NetworkBehaviour
         
         Debug.Log(transform.name+"a été éliminé.");
         StartCoroutine(Respawn());
-        
-        
-        
-        
+         
     }
 }

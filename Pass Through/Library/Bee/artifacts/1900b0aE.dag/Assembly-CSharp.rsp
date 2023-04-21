@@ -407,6 +407,7 @@
 "Assets/Script/StreamVideo.cs"
 "Assets/Script/Util.cs"
 "Assets/Script/weaponData.cs"
+"Assets/Script/WeaponGraphics.cs"
 "Assets/Script/WeaponManager.cs"
 -langversion:9.0
 

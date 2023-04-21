@@ -9,6 +9,7 @@ public class WeaponManager : NetworkBehaviour
     private weaponData primaryWeapon;
     
     private weaponData currentWeapon;
+    private WeaponGraphics currentGraphics;
     
     [SerializeField] 
     private Transform weaponHolder;
@@ -31,12 +32,22 @@ public class WeaponManager : NetworkBehaviour
         return currentWeapon;
     }
 
+    public WeaponGraphics GetCurrentGraphics(){
+        return currentGraphics;
+    }
+
     void EquipWeapon(weaponData _weapon)
     {
         currentWeapon = _weapon;
 
         GameObject weaponIns =Instantiate(_weapon.graphics, weaponHolder.position, weaponHolder.rotation);
         weaponIns.transform.SetParent(weaponHolder);
+
+        currentGraphics = weaponIns.GetComponent<WeaponGraphics>();
+
+        if (currentGraphics == null){
+            Debug.Log("pas de weapon");
+        }
 
         if (isLocalPlayer)
         {

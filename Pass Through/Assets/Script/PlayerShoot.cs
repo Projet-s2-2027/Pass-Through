@@ -62,6 +62,27 @@ public class PlayerShoot : NetworkBehaviour
         
     }
 
+    [Command]
+    void CmdOnHit(Vector3 pos, Vector3 normal){
+        RpcDoHitEffect(pos, normal);
+    }
+
+    [ClientRpc]
+    void RpcDoHitEffect(Vector3 pos, Vector3 normal){
+        GameObject hiteffecttemp = Instantiate(weaponManager.GetCurrentGraphics().hitEffect, pos, Quaternion.LookRotation(normal));
+        Destroy(hiteffecttemp, 2f);
+    }
+
+    [Command]
+    void CmdOnShoot(){
+        RpcDoShootEffect();
+    }
+
+    [ClientRpc]
+    void RpcDoShootEffect(){
+        weaponManager.GetCurrentGraphics().muzzleFlash.Play();
+    }
+
     [Client]
     private void Shoot()
     {
@@ -75,8 +96,9 @@ public class PlayerShoot : NetworkBehaviour
         }
 
         weaponManager.currentMagazineSize--;
-        Debug.Log("Tir effectué");
         RaycastHit hit;
+
+        CmdOnShoot();
 
         if (Physics.Raycast(cam.transform.position,cam.transform.forward,out hit,currentWeapon.range, mask))
         {
@@ -84,6 +106,8 @@ public class PlayerShoot : NetworkBehaviour
             {
                 CmdPlayerShot(hit.collider.name, currentWeapon.damage,transform.name);
             }
+
+            CmdOnHit(hit.point, hit.normal);
         }
     }
 

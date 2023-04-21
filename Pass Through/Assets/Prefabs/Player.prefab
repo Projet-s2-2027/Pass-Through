@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2739895275441834649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.199, y: -0.192, z: 0.519}
+  m_LocalPosition: {x: 0.199, y: -0.681, z: 0.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,7 +75,7 @@ Transform:
   - {fileID: 847099513162431611}
   - {fileID: 5040823880365059859}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4857369826256213401
 Rigidbody:
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 5901640851918488095}
-  jumpPower: 4.5
+  jumpPower: 4
   cameraRotationLimit: 85
 --- !u!114 &5456676485231689946
 MonoBehaviour:
@@ -155,7 +155,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0, y: 1, z: 0}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -282,7 +282,6 @@ MonoBehaviour:
   - {fileID: 5456676485231689946}
   - {fileID: 5901640851918488095}
   - {fileID: 2943868202404883443}
-  - {fileID: 5974181631857543802}
   - {fileID: 1989432396620954756}
   remoteLayerName: RemotePlayer
   dontDrawLayerName: DontDraw
@@ -308,7 +307,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2
+  m_Height: 1
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -459,9 +458,11 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  primaryWeapon: {fileID: 11400000, guid: aa9191a6a5bb54b4790a090a45c9c94a, type: 2}
+  primaryWeapon: {fileID: 11400000, guid: ee12236f3b2477647b8327f3afb13f16, type: 2}
   weaponHolder: {fileID: 6467652400625581533}
+  isReloading: 0
   weaponLayerName: Weapon
+  currentMagazineSize: 0
 --- !u!1 &4129634145274502686
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +563,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 51.9
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
