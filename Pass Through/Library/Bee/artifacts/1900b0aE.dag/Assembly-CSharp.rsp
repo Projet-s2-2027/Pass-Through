@@ -394,6 +394,7 @@
 "Assets/Script/IAController.cs"
 "Assets/Script/Killfeed.cs"
 "Assets/Script/KillfeedItem.cs"
+"Assets/Script/LightController.cs"
 "Assets/Script/MatchSettings.cs"
 "Assets/Script/PauseMenu.cs"
 "Assets/Script/Player.cs"
