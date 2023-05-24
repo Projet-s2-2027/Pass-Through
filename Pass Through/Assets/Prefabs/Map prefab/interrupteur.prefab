@@ -71,10 +71,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.8922995
-  m_Height: 7.1659794
+  m_Radius: 17
+  m_Height: 37
   m_Direction: 1
-  m_Center: {x: 0.9922854, y: 0.026267767, z: -0.22618611}
+  m_Center: {x: 1, y: -1.5, z: -10}
 --- !u!1001 &7594405422223519513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8698550374026669686, guid: c2a0082fe52f330448533d815cb5682e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -158,6 +162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2043445330880908550}
     m_Modifications:
+    - target: {fileID: 5627154361072465769, guid: 4dc22cbad396e5e4b93300e96ed6b566, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8510588320790326868, guid: 4dc22cbad396e5e4b93300e96ed6b566, type: 3}
       propertyPath: m_Name
       value: inte-open
