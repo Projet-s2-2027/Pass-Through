@@ -11625,6 +11625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4522496597152945882}
   - component: {fileID: 3059303159367917921}
+  - component: {fileID: 1364445397514105598}
   m_Layer: 11
   m_Name: MP7 1
   m_TagString: Untagged
@@ -11663,6 +11664,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzleFlash: {fileID: 206387470469130491}
   hitEffect: {fileID: 7225400100533228953, guid: 0ba19736af5b7654daaaa69b1a1b380e, type: 3}
+--- !u!95 &1364445397514105598
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253638995935831375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d8a920078c90dd44ead7ce3917eed0a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4283609629811964109
 GameObject:
   m_ObjectHideFlags: 0

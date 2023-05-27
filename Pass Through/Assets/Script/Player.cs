@@ -17,6 +17,8 @@ public class Player : NetworkBehaviour
 
     [SerializeField]
     private float maxHealth = 100f;
+
+    public bool interacte;
     
     [SyncVar]
     private float currentHealth;
@@ -114,6 +116,15 @@ public class Player : NetworkBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             RpcTakeDamage(25,"Joueur");
+        }
+        if (Input.GetKeyDown(KeyCode.E)) 
+        {
+            interacte = true;
+            Debug.Log("ineteragie");
+        }
+        else
+        {
+            interacte = false;
         }
     }
 

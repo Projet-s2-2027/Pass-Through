@@ -1,3 +1,4 @@
+using Mirror;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,11 +17,12 @@ public class LightController : MonoBehaviour
     private bool isState1Active = true;
     public GameObject state1;
     public GameObject state2;
+    public Player infoPlayer;
 
 
     void Update()
     {
-        if (isLookingAtButton && Input.GetKeyDown(interactKey))
+        if (isLookingAtButton && infoPlayer != null && infoPlayer.interacte)
         {
             ToggleLight();
         }
@@ -28,12 +30,19 @@ public class LightController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        isLookingAtButton = true;  
+        if (other.gameObject.layer == 8)
+        {
+            Debug.Log("entrer d'un joueur");
+            infoPlayer = other.gameObject.GetComponent<Player>();
+            isLookingAtButton = true;
+            
+        } 
     }
 
     void OnTriggerExit()
     {
         isLookingAtButton = false;
+        infoPlayer = null;
     }
 
     void ToggleLight()

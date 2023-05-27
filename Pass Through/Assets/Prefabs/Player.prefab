@@ -349,6 +349,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   maxHealth: 100
+  interacte: 0
   kills: 0
   deaths: 0
   disableOnDeath:
@@ -459,6 +460,8 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   primaryWeapon: {fileID: 11400000, guid: ee12236f3b2477647b8327f3afb13f16, type: 2}
+  secondaryWeapon: {fileID: 11400000, guid: aa9191a6a5bb54b4790a090a45c9c94a, type: 2}
+  knife: {fileID: 0}
   weaponHolder: {fileID: 6467652400625581533}
   isReloading: 0
   weaponLayerName: Weapon

@@ -7,6 +7,10 @@ public class WeaponManager : NetworkBehaviour
 {
     [SerializeField]
     private weaponData primaryWeapon;
+    [SerializeField]
+    private weaponData secondaryWeapon;
+    [SerializeField]
+    private weaponData knife;
     
     private weaponData currentWeapon;
     private WeaponGraphics currentGraphics;
@@ -19,7 +23,8 @@ public class WeaponManager : NetworkBehaviour
     [SerializeField]
     private string weaponLayerName = "Weapon";
 
-    [SerializeField] public int currentMagazineSize;
+    [HideInInspector] 
+    public int currentMagazineSize;
 
     
     void Start()
@@ -39,6 +44,7 @@ public class WeaponManager : NetworkBehaviour
     void EquipWeapon(weaponData _weapon)
     {
         currentWeapon = _weapon;
+        currentMagazineSize = _weapon.magazineSize;
 
         GameObject weaponIns =Instantiate(_weapon.graphics, weaponHolder.position, weaponHolder.rotation);
         weaponIns.transform.SetParent(weaponHolder);
@@ -61,10 +67,46 @@ public class WeaponManager : NetworkBehaviour
         {yield break;}
 
         isReloading = true;
+        CmdOnReload();
         yield return new WaitForSeconds(currentWeapon.reloadTime);
         currentMagazineSize = currentWeapon.magazineSize;
         isReloading = false;
     }
-    
+
+    void Update()
+    {
+        if (isLocalPlayer && Input.GetKeyDown(KeyCode.V)) 
+        {
+            if (currentWeapon != primaryWeapon && primaryWeapon != null)
+            {
+                Destroy(GetCurrentGraphics().gameObject);
+                EquipWeapon(primaryWeapon);
+            }
+        }
+        if (isLocalPlayer && Input.GetKeyDown(KeyCode.B))
+        {
+            if ( currentWeapon != secondaryWeapon && secondaryWeapon != null)
+            {
+                Destroy(GetCurrentGraphics().gameObject);
+                EquipWeapon(secondaryWeapon);
+            }
+        }
+    }
+
+    [Command]
+    void CmdOnReload() 
+    {
+        RpcOnReload();
+    }
+
+    [ClientRpc]
+    void RpcOnReload() 
+    { 
+        Animator animator = currentGraphics.GetComponent<Animator>();
+        if (animator != null) 
+        {
+            animator.SetTrigger("Reload");
+        }
+    }
 }
 

@@ -35,7 +35,7 @@ public class PlayerShoot : NetworkBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && weaponManager.currentMagazineSize < currentWeapon.magazineSize)
         {
             StartCoroutine(weaponManager.Reload());
             return;
