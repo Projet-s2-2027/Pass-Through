@@ -6,7 +6,7 @@ using Mirror;
  using Vector3 = UnityEngine.Vector3;
 
  [RequireComponent(typeof(PlayerMotor))]
-[RequireComponent(typeof(ConfigurableJoint))]
+//[RequireComponent(typeof(ConfigurableJoint))]
 public class PlayerController : NetworkBehaviour
 {
    //vitesse du joueur
@@ -19,7 +19,7 @@ public class PlayerController : NetworkBehaviour
 
    public Camera playerCamera;
 
-   [SerializeField] private float thrusterForce = 1000f;
+   [SerializeField] private float thrusterForce = 1f;
    
    [SerializeField]
    private float thrusterFuelBurnSpeed = 1f;
@@ -32,22 +32,22 @@ public class PlayerController : NetworkBehaviour
       return thrusterFuelAmount;
    }
    
-   [Header("Joint Options")]
-   [SerializeField] private float jointSpring = 20f;
-   [SerializeField] private float jointMaxForce = 50f;
+   //[Header("Joint Options")]
+   //[SerializeField] private float jointSpring = 20f;
+   //[SerializeField] private float jointMaxForce = 50f;
 
    
    
    //récupère les scripts du player motor
    private PlayerMotor motor;
-   private ConfigurableJoint joint;
+   //private ConfigurableJoint joint;
 
    private void Start()
    {
       //constructeur du motor
       motor = GetComponent<PlayerMotor>();
-      joint = GetComponent<ConfigurableJoint>();
-      SetJointSettings(jointSpring);
+      //joint = GetComponent<ConfigurableJoint>();
+      //SetJointSettings(jointSpring);
       
       
       //Disable camera if we are not the host
@@ -81,11 +81,11 @@ public class PlayerController : NetworkBehaviour
       RaycastHit _hit;
       if (Physics.Raycast(transform.position,Vector3.down, out _hit,100f))
       {
-         joint.targetPosition = new Vector3(0f, -_hit.point.y, 0f);
+         //joint.targetPosition = new Vector3(0f, -_hit.point.y, 0f);
       }
       else
       {
-         joint.targetPosition = new Vector3(0f, 0f, 0f);
+         //joint.targetPosition = new Vector3(0f, 0f, 0f);
       }
       
       //If we are not the main client, don't run this method
@@ -119,21 +119,21 @@ public class PlayerController : NetworkBehaviour
 
       //calcul de la force du jetpack/thruster
       Vector3 thrusterVelocity = Vector3.zero;
-      if (Input.GetButton("Jump") && thrusterFuelAmount>0)
+      if (Input.GetButton("Jump") && thrusterFuelAmount>0 && !motor.isGrounded)
       {
          thrusterFuelAmount -= thrusterFuelBurnSpeed * Time.deltaTime;
 
          if (thrusterFuelAmount>=0.01f)
          {
             thrusterVelocity = Vector3.up * thrusterForce;
-            SetJointSettings(0f);
+            //SetJointSettings(0f);
          }
          
       }
-      else
+      else if(motor.isGrounded) 
       {
          thrusterFuelAmount += thrusterFuelRegenSpeed * Time.deltaTime;
-         SetJointSettings(jointSpring);
+         //SetJointSettings(jointSpring);
       }
       thrusterFuelAmount = Mathf.Clamp(thrusterFuelAmount, 0f, 1f);
 
@@ -144,7 +144,7 @@ public class PlayerController : NetworkBehaviour
 
    private void SetJointSettings(float _jointSpring)
    {
-      joint.yDrive= new JointDrive{ positionSpring = _jointSpring,maximumForce = jointMaxForce};
+      //joint.yDrive= new JointDrive{ positionSpring = _jointSpring,maximumForce = jointMaxForce};
    }
    
 }

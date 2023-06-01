@@ -120,7 +120,7 @@ public class Player : NetworkBehaviour
         if (Input.GetKeyDown(KeyCode.E)) 
         {
             interacte = true;
-            Debug.Log("ineteragie");
+            Debug.Log("interagie");
         }
         else
         {

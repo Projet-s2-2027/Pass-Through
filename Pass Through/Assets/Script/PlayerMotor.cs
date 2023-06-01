@@ -10,6 +10,7 @@ public class PlayerMotor : MonoBehaviour
    
    private Vector3 _velocity;
    private Vector3 _rotation;
+   public bool isGrounded;
    private float cameraRotationX=0f;
    private float currentCameraRotationX = 0f;
    public float jumpPower = 4.5f;
@@ -46,7 +47,9 @@ public class PlayerMotor : MonoBehaviour
    {
       PerformMovement();
       PerformRotation();
-      if (Input.GetKeyDown(KeyCode.Space))
+      isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
+      Debug.Log(transform.position+", "+isGrounded);
+      if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
       {
          Jump();
       }
