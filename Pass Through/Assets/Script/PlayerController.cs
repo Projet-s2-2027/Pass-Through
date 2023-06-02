@@ -13,9 +13,9 @@ public class PlayerController : NetworkBehaviour
    [SerializeField]
    private float speed = 3f;
    [SerializeField]
-   private float mouseSensitivityX = 3f;
+   private float mouseSensitivityX = 2f;
    [SerializeField]
-   private float mouseSensitivityY = 3f;
+   private float mouseSensitivityY = 2f;
 
    public Camera playerCamera;
 

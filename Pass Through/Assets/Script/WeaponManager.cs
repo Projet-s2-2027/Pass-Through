@@ -91,6 +91,7 @@ public class WeaponManager : NetworkBehaviour
                 EquipWeapon(secondaryWeapon);
             }
         }
+        Debug.Log(weaponHolder.position);
     }
 
     [Command]

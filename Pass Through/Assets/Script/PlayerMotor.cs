@@ -7,6 +7,8 @@ public class PlayerMotor : MonoBehaviour
    [SerializeField]
    private Camera cam;
    
+   [SerializeField]
+   private GameObject head;
    
    private Vector3 _velocity;
    private Vector3 _rotation;
@@ -26,16 +28,16 @@ public class PlayerMotor : MonoBehaviour
 
    public void Move(Vector3 velocity)
    {
-      this._velocity = velocity;
+      _velocity = velocity;
    }
    
    public void Rotate(Vector3 rotation)
    {
-      this._rotation = rotation;
+      _rotation = rotation;
    }
-   public void RotateCamera(float cameraRotationX)
+   public void RotateCamera(float _cameraRotationX)
    {
-      this.cameraRotationX = cameraRotationX;
+      cameraRotationX = _cameraRotationX;
    }
 
    public void ApplyThruster(Vector3 _thrusterVelocity)
@@ -74,6 +76,7 @@ public class PlayerMotor : MonoBehaviour
       currentCameraRotationX -= cameraRotationX;
       currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
       cam.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
+      head.transform.localEulerAngles = new Vector3(-currentCameraRotationX, 0f, 0f);
 
    }
 
