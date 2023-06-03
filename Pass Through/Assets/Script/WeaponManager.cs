@@ -16,7 +16,11 @@ public class WeaponManager : NetworkBehaviour
     private WeaponGraphics currentGraphics;
     
     [SerializeField] 
-    private Transform weaponHolder;
+    private Transform leftHand;
+    [SerializeField] 
+    private Transform RightHand;
+    [SerializeField] 
+    private Transform WeaponHolder;
 
     public bool isReloading = false;
 
@@ -50,7 +54,7 @@ public class WeaponManager : NetworkBehaviour
         currentMagazineSize = _weapon.magazineSize;
 
         GameObject weaponIns =Instantiate(_weapon.graphics);
-        weaponIns.transform.SetParent(weaponHolder);
+        weaponIns.transform.SetParent(WeaponHolder);
         
 
         currentGraphics = weaponIns.GetComponent<WeaponGraphics>();
@@ -99,6 +103,8 @@ public class WeaponManager : NetworkBehaviour
                 PlayerAnimator.SetBool("hasSecondary",true);
             }
         }
+        WeaponHolder.position = RightHand.position;
+        WeaponHolder.LookAt(leftHand);
     }
 
     [Command]
