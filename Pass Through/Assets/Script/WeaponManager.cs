@@ -46,8 +46,9 @@ public class WeaponManager : NetworkBehaviour
         currentWeapon = _weapon;
         currentMagazineSize = _weapon.magazineSize;
 
-        GameObject weaponIns =Instantiate(_weapon.graphics, weaponHolder.position, weaponHolder.rotation);
+        GameObject weaponIns =Instantiate(_weapon.graphics);
         weaponIns.transform.SetParent(weaponHolder);
+        weaponIns.transform.position = new Vector3(0f,0f,0f);
 
         currentGraphics = weaponIns.GetComponent<WeaponGraphics>();
 
@@ -91,7 +92,6 @@ public class WeaponManager : NetworkBehaviour
                 EquipWeapon(secondaryWeapon);
             }
         }
-        Debug.Log(weaponHolder.position);
     }
 
     [Command]

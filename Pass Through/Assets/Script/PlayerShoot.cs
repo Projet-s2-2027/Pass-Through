@@ -25,7 +25,6 @@ public class PlayerShoot : NetworkBehaviour
 
         
         weaponManager = GetComponent<WeaponManager>();
-
     }
 
     private void Update()
