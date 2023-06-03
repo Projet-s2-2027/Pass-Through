@@ -94,9 +94,37 @@ public class PlayerController : NetworkBehaviour
          return;
       }
       //calcul de la vélocité du mouvement du joueur
+      Animator animator = transform.GetComponent<Animator>();
+      if (animator == null)
+      Debug.Log("pas d'animator");
       float xMov = Input.GetAxisRaw("Horizontal");
+      if (xMov > 0){
+         animator.SetBool("right",true);
+         animator.SetBool("left",false);
+   }
+   if(xMov < 0){
+         animator.SetBool("right",false);
+         animator.SetBool("left",true);
+      }
+      if(xMov == 0){
+         animator.SetBool("right",false);
+         animator.SetBool("left",false);
+      }
+      
       float zMov = Input.GetAxisRaw("Vertical");
-
+      if (zMov > 0){
+         animator.SetBool("forward",true);
+         animator.SetBool("backward",false);
+      }
+      if(zMov < 0){
+         animator.SetBool("forward",false);
+         animator.SetBool("backward",true);
+      }
+      if(zMov == 0){
+         animator.SetBool("forward",false);
+         animator.SetBool("backward",false);
+      }
+      
       Vector3 moveHorizontal = transform.right * xMov;
       Vector3 moveVertical = transform.forward * zMov;
 
@@ -119,7 +147,7 @@ public class PlayerController : NetworkBehaviour
 
       //calcul de la force du jetpack/thruster
       Vector3 thrusterVelocity = Vector3.zero;
-      if (Input.GetButton("Jump") && thrusterFuelAmount>0 && !motor.isGrounded)
+      if (Input.GetButton("Jump") && thrusterFuelAmount>0 && !motor.getIsGrounded())
       {
          thrusterFuelAmount -= thrusterFuelBurnSpeed * Time.deltaTime;
 
@@ -130,7 +158,7 @@ public class PlayerController : NetworkBehaviour
          }
          
       }
-      else if(motor.isGrounded) 
+      else if(motor.getIsGrounded()) 
       {
          thrusterFuelAmount += thrusterFuelRegenSpeed * Time.deltaTime;
          //SetJointSettings(jointSpring);

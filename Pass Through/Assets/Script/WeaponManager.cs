@@ -19,6 +19,9 @@ public class WeaponManager : NetworkBehaviour
     private Transform weaponHolder;
 
     public bool isReloading = false;
+
+    [SerializeField]
+    private Animator PlayerAnimator;
     
     [SerializeField]
     private string weaponLayerName = "Weapon";
@@ -48,7 +51,7 @@ public class WeaponManager : NetworkBehaviour
 
         GameObject weaponIns =Instantiate(_weapon.graphics);
         weaponIns.transform.SetParent(weaponHolder);
-        weaponIns.transform.position = new Vector3(0f,0f,0f);
+        
 
         currentGraphics = weaponIns.GetComponent<WeaponGraphics>();
 
@@ -82,6 +85,8 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(primaryWeapon);
+                PlayerAnimator.SetBool("hasPrimary",true);
+                PlayerAnimator.SetBool("hasSecondary",false);
             }
         }
         if (isLocalPlayer && Input.GetKeyDown(KeyCode.B))
@@ -90,6 +95,8 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(secondaryWeapon);
+                PlayerAnimator.SetBool("hasPrimary",false);
+                PlayerAnimator.SetBool("hasSecondary",true);
             }
         }
     }
