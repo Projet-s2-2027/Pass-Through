@@ -10,6 +10,13 @@ public class PlayerShoot : NetworkBehaviour
 
     [SerializeField]
     private LayerMask mask;
+
+    [SerializeField]
+    private Animator playerAnimator;
+    private bool isrotated;
+
+    [SerializeField]
+    private GameObject playerGraphics;
     
     private weaponData currentWeapon;
     private WeaponManager weaponManager;
@@ -23,7 +30,7 @@ public class PlayerShoot : NetworkBehaviour
             this.enabled = false;
         }
 
-        
+        isrotated = false;
         weaponManager = GetComponent<WeaponManager>();
     }
 
@@ -44,19 +51,43 @@ public class PlayerShoot : NetworkBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                if (!isrotated){
+                    playerGraphics.transform.Rotate(new Vector3(0f,60f,0f));    
+                    isrotated = true;    
+                }
+                playerAnimator.SetBool("firing",true);
                 Shoot();
+            }
+            else{
+                playerAnimator.SetBool("firing",false);
+                if(isrotated){
+                    playerGraphics.transform.Rotate(new Vector3(0f,-60f,0f));    
+                    isrotated = false;   
+                }
             }
         }
         else
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                if (!isrotated){
+
+                    playerGraphics.transform.Rotate(new Vector3(0f,52f,0f));    
+                    isrotated = true;    
+                }
+                playerAnimator.SetBool("firing",true);
                 InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
             }
             else if (Input.GetButtonUp("Fire1"))
-            {
-                CancelInvoke("Shoot");
-            }
+                {
+                    playerAnimator.SetBool("firing",false);
+                    if(isrotated){
+                        playerGraphics.transform.Rotate(new Vector3(0f,-52f,0f));    
+                        isrotated = false;   
+                    }
+                    CancelInvoke("Shoot");
+                }
+                
         }
         
     }

@@ -78,8 +78,6 @@ public class PlayerMotor : MonoBehaviour
       currentCameraRotationX -= cameraRotationX;
       currentCameraRotationX = Mathf.Clamp(currentCameraRotationX, -cameraRotationLimit, cameraRotationLimit);
       cam.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
-      head.transform.localEulerAngles = new Vector3(-currentCameraRotationX-35.78f, 1.054f, -0.385f);
-
    }
 
    private void Jump()
