@@ -84,6 +84,7 @@ public class PlayerMotor : MonoBehaviour
       cam.transform.localEulerAngles = new Vector3(currentCameraRotationX, 0f, 0f);
    }
 
+
    private void Jump()
    {
       rb.AddForce(new Vector3(0,jumpPower,0),ForceMode.Impulse);

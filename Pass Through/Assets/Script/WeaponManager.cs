@@ -17,9 +17,7 @@ public class WeaponManager : NetworkBehaviour
     private PlayerController playerController;
     
     [SerializeField] 
-    private Transform leftHand;
-    [SerializeField] 
-    private Transform RightHand;
+    private Transform WeaponHolderAim;
     
     [SerializeField] 
     private Camera cam;
@@ -115,32 +113,13 @@ public class WeaponManager : NetworkBehaviour
                 hasSecondary = true;
             }
         }
-        if ( hasSecondary){
-            if (playerController.getPlayerMotor().getCurrentCam() < -8f || playerController.getPlayerMotor().getCurrentCam() > 20f){
-                WeaponHolder.LookAt(leftHand);  
-            }
-            else {
-            WeaponHolder.position = RightHand.position;
-            WeaponHolder.LookAt(cam.transform);
-            } 
-        }
-        else{
-            if (playerController.getPlayerMotor().getCurrentCam() < -8f || playerController.getPlayerMotor().getCurrentCam() > 20f){
-                WeaponHolder.LookAt(cam.transform); 
-                 
-            }
-            else {
-            WeaponHolder.position = RightHand.position;
-            WeaponHolder.LookAt(leftHand);
-            }  
-        }
-         
-        
         if (isAiming && isLocalPlayer){
             playerController.currentSpeed = playerController.GetdefaultSpeed()*0.6f;
+            currentGraphics.transform.SetParent(WeaponHolderAim);
         }
         else if (isLocalPlayer){
             playerController.currentSpeed = playerController.GetdefaultSpeed();
+            currentGraphics.transform.SetParent(WeaponHolder);
         }
     }
 

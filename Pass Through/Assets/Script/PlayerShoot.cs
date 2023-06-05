@@ -51,67 +51,95 @@ public class PlayerShoot : NetworkBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                if (!isrotated){
-                    playerGraphics.transform.Rotate(new Vector3(0f,60f,0f));    
-                    isrotated = true;    
-                }
-                playerAnimator.SetFloat("isShooting",1f);
+                CmdOnShootGraphic(true);
                 Shoot();
             }
             else{
-                playerAnimator.SetFloat("isShooting",0f);
-                if(isrotated){
-                    playerGraphics.transform.Rotate(new Vector3(0f,-60f,0f));    
-                    isrotated = false;   
-                }
+                CmdOnShootGraphic(false);
             }
         }
         else
         {
             if (Input.GetButtonDown("Fire1"))
             {
-                
-                if (!isrotated){
-
-                    playerGraphics.transform.Rotate(new Vector3(0f,52f,0f));    
-                    isrotated = true;    
-                }
-                playerAnimator.SetFloat("isShooting",1f);
+                CmdOnShootGraphic(true);
                 InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
             }
             else if (Input.GetButtonUp("Fire1"))
                 {
-                    playerAnimator.SetFloat("isShooting",0f);
-                    if(isrotated){
-                        playerGraphics.transform.Rotate(new Vector3(0f,-52f,0f));    
-                        isrotated = false;   
-                    }
+                    CmdOnShootGraphic(false);
                     CancelInvoke("Shoot");
                 }
+               
                 
         }
         if (Input.GetButtonDown("Fire2") ){
-            weaponManager.isAiming = true;
+            CmdOnAim(true);
+        }
+        if (Input.GetButtonUp("Fire2") ){
+            CmdOnAim(false);
+        }
+    }
+
+    [Command]
+    void CmdOnShootGraphic(bool info){
+        if ( info){
+            RpcOnShootGraphic();
+        }
+        else{
+            RpcOffShootGraphic();
+        }
+    }
+
+    [ClientRpc]
+    void RpcOnShootGraphic(){
+        if (!isrotated){
+                    playerGraphics.transform.Rotate(new Vector3(0f,52f,0f));    
+                    isrotated = true;   
+                     
+                }
+        playerAnimator.SetFloat("isShooting",1f);          
+    }
+
+    [ClientRpc]
+    void RpcOffShootGraphic(){
+        if(isrotated){
+                        playerGraphics.transform.Rotate(new Vector3(0f,-52f,0f));    
+                        isrotated = false;   
+                        playerAnimator.SetFloat("isShooting",0f);
+                    }
+    }
+
+
+    [Command]
+    void CmdOnHit(Vector3 pos, Vector3 normal){
+        RpcDoHitEffect(pos, normal);
+    }
+
+    [Command]
+    void CmdOnAim(bool info){
+        if ( info){RpcOnAim();}
+        else{RpcOffAim();}
+    }
+
+    [ClientRpc]
+    void RpcOnAim(){
+        weaponManager.isAiming = true;
             playerAnimator.SetFloat("isAiming",1f);
             if (!isrotated){
                     playerGraphics.transform.Rotate(new Vector3(0f,48f,0f));    
                     isrotated = true;    
                 }
-        }
-        if (Input.GetButtonUp("Fire2") ){
-            playerAnimator.SetFloat("isAiming",0f);
-            weaponManager.isAiming = false;
-           if (isrotated){
+    }
 
+    [ClientRpc]
+    void RpcOffAim(){
+        weaponManager.isAiming = false;
+            playerAnimator.SetFloat("isAiming",0f);
+            if (isrotated){
                     playerGraphics.transform.Rotate(new Vector3(0f,-48f,0f));    
                     isrotated = false;    
                 }
-        }
-    }
-
-    [Command]
-    void CmdOnHit(Vector3 pos, Vector3 normal){
-        RpcDoHitEffect(pos, normal);
     }
 
     [ClientRpc]
