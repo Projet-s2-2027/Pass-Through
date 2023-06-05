@@ -55,11 +55,11 @@ public class PlayerShoot : NetworkBehaviour
                     playerGraphics.transform.Rotate(new Vector3(0f,60f,0f));    
                     isrotated = true;    
                 }
-                playerAnimator.SetBool("firing",true);
+                playerAnimator.SetFloat("isShooting",1f);
                 Shoot();
             }
             else{
-                playerAnimator.SetBool("firing",false);
+                playerAnimator.SetFloat("isShooting",0f);
                 if(isrotated){
                     playerGraphics.transform.Rotate(new Vector3(0f,-60f,0f));    
                     isrotated = false;   
@@ -70,17 +70,18 @@ public class PlayerShoot : NetworkBehaviour
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                
                 if (!isrotated){
 
                     playerGraphics.transform.Rotate(new Vector3(0f,52f,0f));    
                     isrotated = true;    
                 }
-                playerAnimator.SetBool("firing",true);
+                playerAnimator.SetFloat("isShooting",1f);
                 InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
             }
             else if (Input.GetButtonUp("Fire1"))
                 {
-                    playerAnimator.SetBool("firing",false);
+                    playerAnimator.SetFloat("isShooting",0f);
                     if(isrotated){
                         playerGraphics.transform.Rotate(new Vector3(0f,-52f,0f));    
                         isrotated = false;   
@@ -89,7 +90,23 @@ public class PlayerShoot : NetworkBehaviour
                 }
                 
         }
-        
+        if (Input.GetButtonDown("Fire2") ){
+            weaponManager.isAiming = true;
+            playerAnimator.SetFloat("isAiming",1f);
+            if (!isrotated){
+                    playerGraphics.transform.Rotate(new Vector3(0f,48f,0f));    
+                    isrotated = true;    
+                }
+        }
+        if (Input.GetButtonUp("Fire2") ){
+            playerAnimator.SetFloat("isAiming",0f);
+            weaponManager.isAiming = false;
+           if (isrotated){
+
+                    playerGraphics.transform.Rotate(new Vector3(0f,-48f,0f));    
+                    isrotated = false;    
+                }
+        }
     }
 
     [Command]

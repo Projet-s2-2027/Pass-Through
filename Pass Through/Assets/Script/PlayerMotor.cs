@@ -8,7 +8,7 @@ public class PlayerMotor : MonoBehaviour
    private Camera cam;
    
    [SerializeField]
-   private GameObject head;
+   private GameObject spine;
    
    private Vector3 _velocity;
    private Vector3 _rotation;

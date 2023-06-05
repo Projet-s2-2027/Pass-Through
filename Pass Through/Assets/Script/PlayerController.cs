@@ -11,7 +11,8 @@ public class PlayerController : NetworkBehaviour
 {
    //vitesse du joueur
    [SerializeField]
-   private float speed = 3f;
+   private float defaultSpeed = 3f;
+    public float currentSpeed = 3f;
    [SerializeField]
    private float mouseSensitivityX = 2f;
    [SerializeField]
@@ -36,7 +37,9 @@ public class PlayerController : NetworkBehaviour
    //[SerializeField] private float jointSpring = 20f;
    //[SerializeField] private float jointMaxForce = 50f;
 
-   
+   public float GetdefaultSpeed(){
+      return defaultSpeed;
+   }
    
    //récupère les scripts du player motor
    private PlayerMotor motor;
@@ -97,38 +100,16 @@ public class PlayerController : NetworkBehaviour
       Animator animator = transform.GetComponent<Animator>();
       if (animator == null)
       Debug.Log("pas d'animator");
-      float xMov = Input.GetAxisRaw("Horizontal");
-      if (xMov > 0){
-         animator.SetBool("right",true);
-         animator.SetBool("left",false);
-   }
-   if(xMov < 0){
-         animator.SetBool("right",false);
-         animator.SetBool("left",true);
-      }
-      if(xMov == 0){
-         animator.SetBool("right",false);
-         animator.SetBool("left",false);
-      }
-      
-      float zMov = Input.GetAxisRaw("Vertical");
-      if (zMov > 0){
-         animator.SetBool("forward",true);
-         animator.SetBool("backward",false);
-      }
-      if(zMov < 0){
-         animator.SetBool("forward",false);
-         animator.SetBool("backward",true);
-      }
-      if(zMov == 0){
-         animator.SetBool("forward",false);
-         animator.SetBool("backward",false);
-      }
+      float xMov = Input.GetAxis("Horizontal");
+      float zMov = Input.GetAxis("Vertical");
       
       Vector3 moveHorizontal = transform.right * xMov;
       Vector3 moveVertical = transform.forward * zMov;
 
-      Vector3 velocity = (moveHorizontal + moveVertical).normalized * speed;
+      Vector3 velocity = (moveHorizontal + moveVertical)* currentSpeed;
+
+      animator.SetFloat("Forward",zMov);
+      animator.SetFloat("Right",xMov);
       
 	   motor.Move(velocity);
       
@@ -168,6 +149,7 @@ public class PlayerController : NetworkBehaviour
       //appliquer la force du jetpack
       motor.ApplyThruster(thrusterVelocity);
 
+      
    }
 
    private void SetJointSettings(float _jointSpring)

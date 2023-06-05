@@ -14,13 +14,20 @@ public class WeaponManager : NetworkBehaviour
     
     private weaponData currentWeapon;
     private WeaponGraphics currentGraphics;
+    private PlayerController playerController;
     
     [SerializeField] 
     private Transform leftHand;
     [SerializeField] 
     private Transform RightHand;
+    
+    [SerializeField] 
+    private Camera cam;
     [SerializeField] 
     private Transform WeaponHolder;
+    private bool hasSecondary;
+
+    public bool isAiming;
 
     public bool isReloading = false;
 
@@ -37,6 +44,8 @@ public class WeaponManager : NetworkBehaviour
     void Start()
     {
         EquipWeapon(primaryWeapon);
+        isAiming = false;
+        playerController = GetComponent<PlayerController>();
     }
 
     public weaponData GetCurrentWeapon()
@@ -50,6 +59,7 @@ public class WeaponManager : NetworkBehaviour
 
     void EquipWeapon(weaponData _weapon)
     {
+        isAiming = false;
         currentWeapon = _weapon;
         currentMagazineSize = _weapon.magazineSize;
 
@@ -89,8 +99,8 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(primaryWeapon);
-                PlayerAnimator.SetBool("hasPrimary",true);
                 PlayerAnimator.SetBool("hasSecondary",false);
+                hasSecondary = false;
             }
         }
         if (isLocalPlayer && Input.GetKeyDown(KeyCode.B))
@@ -99,12 +109,26 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(secondaryWeapon);
-                PlayerAnimator.SetBool("hasPrimary",false);
                 PlayerAnimator.SetBool("hasSecondary",true);
+                hasSecondary = true;
             }
         }
-        WeaponHolder.position = RightHand.position;
-        WeaponHolder.LookAt(leftHand);
+        if ( hasSecondary){
+            WeaponHolder.position = RightHand.position;
+            WeaponHolder.LookAt(cam.transform);  
+        }
+        else{
+            WeaponHolder.position = RightHand.position;
+            WeaponHolder.LookAt(leftHand);  
+        }
+         
+        
+        if (isAiming && isLocalPlayer){
+            playerController.currentSpeed = playerController.GetdefaultSpeed()*0.6f;
+        }
+        else if (isLocalPlayer){
+            playerController.currentSpeed = playerController.GetdefaultSpeed();
+        }
     }
 
     [Command]
