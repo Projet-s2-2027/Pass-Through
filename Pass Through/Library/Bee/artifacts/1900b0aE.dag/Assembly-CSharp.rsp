@@ -395,6 +395,7 @@
 "Assets/Script/PlayerShoot.cs"
 "Assets/Script/PlayerUI.cs"
 "Assets/Script/portal/teleport.cs"
+"Assets/Script/portal/teleport1.cs"
 "Assets/Script/ScoreBoard.cs"
 "Assets/Script/StreamVideo.cs"
 "Assets/Script/Util.cs"

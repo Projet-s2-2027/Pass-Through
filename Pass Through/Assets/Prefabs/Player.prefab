@@ -137,8 +137,8 @@ MonoBehaviour:
   syncInterval: 0
   defaultSpeed: 3
   currentSpeed: 3
-  mouseSensitivityX: 10
-  mouseSensitivityY: 8
+  mouseSensitivityX: 5
+  mouseSensitivityY: 4
   playerCamera: {fileID: 0}
   thrusterForce: 1000
   thrusterFuelBurnSpeed: 1
@@ -364,9 +364,11 @@ MonoBehaviour:
   knife: {fileID: 0}
   leftHand: {fileID: 6832394528774295144}
   RightHand: {fileID: 8948728765856940713}
+  cam: {fileID: 0}
   WeaponHolder: {fileID: 1456484343808330786}
   isAiming: 0
   isReloading: 0
+  isCamLimit: 0
   PlayerAnimator: {fileID: 7396364652635876424}
   weaponLayerName: Weapon
   currentMagazineSize: 0
