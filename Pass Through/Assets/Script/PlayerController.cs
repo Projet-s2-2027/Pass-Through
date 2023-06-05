@@ -45,6 +45,9 @@ public class PlayerController : NetworkBehaviour
    private PlayerMotor motor;
    //private ConfigurableJoint joint;
 
+   public PlayerMotor getPlayerMotor(){
+      return motor;
+   }
    private void Start()
    {
       //constructeur du motor

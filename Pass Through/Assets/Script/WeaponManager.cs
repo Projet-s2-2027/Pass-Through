@@ -24,12 +24,14 @@ public class WeaponManager : NetworkBehaviour
     [SerializeField] 
     private Camera cam;
     [SerializeField] 
-    private Transform WeaponHolder;
+    public Transform WeaponHolder;
     private bool hasSecondary;
 
     public bool isAiming;
 
     public bool isReloading = false;
+
+    public bool isCamLimit;
 
     [SerializeField]
     private Animator PlayerAnimator;
@@ -114,12 +116,23 @@ public class WeaponManager : NetworkBehaviour
             }
         }
         if ( hasSecondary){
+            if (playerController.getPlayerMotor().getCurrentCam() < -8f || playerController.getPlayerMotor().getCurrentCam() > 20f){
+                WeaponHolder.LookAt(leftHand);  
+            }
+            else {
             WeaponHolder.position = RightHand.position;
-            WeaponHolder.LookAt(cam.transform);  
+            WeaponHolder.LookAt(cam.transform);
+            } 
         }
         else{
+            if (playerController.getPlayerMotor().getCurrentCam() < -8f || playerController.getPlayerMotor().getCurrentCam() > 20f){
+                WeaponHolder.LookAt(cam.transform); 
+                 
+            }
+            else {
             WeaponHolder.position = RightHand.position;
-            WeaponHolder.LookAt(leftHand);  
+            WeaponHolder.LookAt(leftHand);
+            }  
         }
          
         

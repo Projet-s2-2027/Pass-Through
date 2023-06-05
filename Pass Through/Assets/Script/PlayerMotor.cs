@@ -43,6 +43,10 @@ public class PlayerMotor : MonoBehaviour
       cameraRotationX = _cameraRotationX;
    }
 
+   public float getCurrentCam(){
+      return currentCameraRotationX;
+   }
+
    public void ApplyThruster(Vector3 _thrusterVelocity)
    {
       thrusterVelocity = _thrusterVelocity;
