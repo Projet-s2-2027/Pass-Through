@@ -16,6 +16,7 @@ public class PauseMenu : NetworkBehaviour
 
     public void LeaveRoomButton()
     {
+        Debug.Log("click");
         if (isClientOnly)
         {
             networkManager.StopClient();

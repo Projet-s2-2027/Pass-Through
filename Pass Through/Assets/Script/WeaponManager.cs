@@ -99,8 +99,7 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(primaryWeapon);
-                PlayerAnimator.SetBool("hasSecondary",false);
-                hasSecondary = false;
+                CmdEquip(false);
             }
         }
         if (isLocalPlayer && Input.GetKeyDown(KeyCode.B))
@@ -109,8 +108,7 @@ public class WeaponManager : NetworkBehaviour
             {
                 Destroy(GetCurrentGraphics().gameObject);
                 EquipWeapon(secondaryWeapon);
-                PlayerAnimator.SetBool("hasSecondary",true);
-                hasSecondary = true;
+                CmdEquip(true);
             }
         }
         if (isAiming && isLocalPlayer){
@@ -121,6 +119,17 @@ public class WeaponManager : NetworkBehaviour
             playerController.currentSpeed = playerController.GetdefaultSpeed();
             currentGraphics.transform.SetParent(WeaponHolder);
         }
+    }
+
+    [Command]
+    void CmdEquip(bool info){
+        RpcEquip(info);
+    }
+
+    [ClientRpc]
+    void RpcEquip(bool info){
+        PlayerAnimator.SetBool("hasSecondary",info);
+        hasSecondary = info;
     }
 
     [Command]
