@@ -38,11 +38,13 @@ public class PlayerShoot : NetworkBehaviour
     {currentWeapon = weaponManager.GetCurrentWeapon();
         if (PauseMenu.isOn)
         {
+            CancelInvoke("Shoot");
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.R) && weaponManager.currentMagazineSize < currentWeapon.magazineSize)
         {
+            CancelInvoke("Shoot");
             StartCoroutine(weaponManager.Reload());
             return;
         }

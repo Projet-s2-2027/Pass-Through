@@ -51,8 +51,18 @@ public class PlayerSetup : NetworkBehaviour
             }
         }
         GetComponent<Player>().Setup();
+        CmdSetUsername(transform.name, UserAccountManager.LoggedIdUsername);
     }
     
+    [Command]
+    void CmdSetUsername(string playerId, string username){
+        Player player = GameManager.GetPlayer(playerId);
+        if (player != null){
+            player.username = username;
+        }
+    }
+
+
     public override void OnStartClient()
     {
         base.OnStartClient();

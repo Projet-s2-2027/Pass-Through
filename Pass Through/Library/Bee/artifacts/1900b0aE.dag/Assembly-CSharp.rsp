@@ -400,6 +400,7 @@
 "Assets/Script/portal/teleport1.cs"
 "Assets/Script/ScoreBoard.cs"
 "Assets/Script/StreamVideo.cs"
+"Assets/Script/UserAccountManager.cs"
 "Assets/Script/Util.cs"
 "Assets/Script/weaponData.cs"
 "Assets/Script/WeaponGraphics.cs"

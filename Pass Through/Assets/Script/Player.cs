@@ -18,6 +18,9 @@ public class Player : NetworkBehaviour
     [SerializeField]
     private float maxHealth = 100f;
 
+    [SyncVar]
+    public string username = "Player";
+
     public bool interacte;
     
     [SyncVar]
@@ -158,7 +161,7 @@ public class Player : NetworkBehaviour
         if (sourcePlayer!=null)
         {
             sourcePlayer.kills++;
-            GameManager.instance.onPlayerKilledCallback.Invoke(transform.name, sourcePlayer.name);
+            GameManager.instance.onPlayerKilledCallback.Invoke(username, sourcePlayer.username);
         }
         
         deaths++;
