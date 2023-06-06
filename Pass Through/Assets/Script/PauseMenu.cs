@@ -9,6 +9,7 @@ public class PauseMenu : NetworkBehaviour
     public static bool isOn = false;
 
     private NetworkManager networkManager;
+
     private void Start()
     {
         networkManager = NetworkManager.singleton;
@@ -16,7 +17,6 @@ public class PauseMenu : NetworkBehaviour
 
     public void LeaveRoomButton()
     {
-        Debug.Log("click");
         if (isClientOnly)
         {
             networkManager.StopClient();

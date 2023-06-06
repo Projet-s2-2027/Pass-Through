@@ -12,8 +12,13 @@ public class PlayerUI : MonoBehaviour
     
     private PlayerController controller;
     private Player player;
+    
+    
     [SerializeField] 
     private GameObject pauseMenu;
+    
+    
+    
     [SerializeField] 
     private GameObject scoreBoard;
 
@@ -28,6 +33,7 @@ public class PlayerUI : MonoBehaviour
         PauseMenu.isOn = false;
     }
 
+
     private void Update()
     {
         SetFuelAmount(controller.GetThrusterFuelAmount());
@@ -36,6 +42,7 @@ public class PlayerUI : MonoBehaviour
         {
             TogglePauseMenu();
         }
+        
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {

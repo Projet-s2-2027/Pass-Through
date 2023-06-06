@@ -75,6 +75,7 @@ public class PlayerController : NetworkBehaviour
          motor.Rotate(Vector3.zero);
          motor.RotateCamera(0f);
          motor.ApplyThruster(Vector3.zero);
+         motor.jumpPower = 0;
          
          return;
       }

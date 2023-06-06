@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 5901640851918488095}
   spine: {fileID: 8089260556963181842}
-  jumpPower: 1
+  jumpPower: 2
   cameraRotationLimit: 85
 --- !u!114 &5456676485231689946
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   mouseSensitivityX: 5
   mouseSensitivityY: 4
   playerCamera: {fileID: 0}
-  thrusterForce: 1000
+  thrusterForce: 800
   thrusterFuelBurnSpeed: 1
   thrusterFuelRegenSpeed: 0.5
 --- !u!114 &2387045337524955052
