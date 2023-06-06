@@ -13,4 +13,7 @@ public class weaponData:ScriptableObject
     public int magazineSize = 10;
     public float reloadTime = 1.5f;
     public GameObject graphics;
+
+    public AudioClip shootSound;
+    public AudioClip reloadSound;
 }

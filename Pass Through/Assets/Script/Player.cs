@@ -35,6 +35,9 @@ public class Player : NetworkBehaviour
     private bool[] wasEnableOnStart;
 
     private bool firstSetup = true;
+
+    [SerializeField]
+    private AudioClip deadSound;
     
 
     public void Setup()
@@ -140,6 +143,8 @@ public class Player : NetworkBehaviour
 
         if (currentHealth<=0)
         {
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.PlayOneShot(deadSound);
             Die(sourceID);
         }
         

@@ -1,6 +1,7 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -12,7 +13,10 @@ public class PlayerUI : MonoBehaviour
     
     private PlayerController controller;
     private Player player;
+    private WeaponManager weaponManager;
     
+    [SerializeField]
+    private Text ammoText;
     
     [SerializeField] 
     private GameObject pauseMenu;
@@ -26,6 +30,7 @@ public class PlayerUI : MonoBehaviour
     {
         player = _player;
         controller = player.GetComponent<PlayerController>();
+        weaponManager = player.GetComponent<WeaponManager>();
     }
 
     private void Start()
@@ -38,6 +43,7 @@ public class PlayerUI : MonoBehaviour
     {
         SetFuelAmount(controller.GetThrusterFuelAmount());
         SetHealthAmount(player.GetHealthPct());
+        SetAmmoAmount(weaponManager.currentMagazineSize);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseMenu();
@@ -70,5 +76,9 @@ public class PlayerUI : MonoBehaviour
     void SetHealthAmount(float _amount)
     {
         healthBarFill.localScale = new Vector3(1f, _amount, 1f);
+    }
+
+    void SetAmmoAmount(int info){
+        ammoText.text = info.ToString();
     }
 }

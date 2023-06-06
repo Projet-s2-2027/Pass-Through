@@ -16,4 +16,8 @@ MonoBehaviour:
   damage: 3
   range: 50
   fireRate: 0
+  magazineSize: 10
+  reloadTime: 1.5
   graphics: {fileID: 1464803102994981605, guid: 7dbd70b78cde15344ad4636af655a9a6, type: 3}
+  shootSound: {fileID: 8300000, guid: 83d2d7ee3511d354187401901e415bfd, type: 3}
+  reloadSound: {fileID: 8300000, guid: 87ffa59bfe1c8e34b992f0110709b933, type: 3}

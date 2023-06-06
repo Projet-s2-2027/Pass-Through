@@ -146,6 +146,8 @@ public class WeaponManager : NetworkBehaviour
         {
             animator.SetTrigger("Reload");
         }
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(currentWeapon.reloadSound);
     }
 }
 
