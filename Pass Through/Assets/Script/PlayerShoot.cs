@@ -38,13 +38,11 @@ public class PlayerShoot : NetworkBehaviour
     {currentWeapon = weaponManager.GetCurrentWeapon();
         if (PauseMenu.isOn)
         {
-            CancelInvoke("Shoot");
             return;
         }
 
         if (Input.GetKeyDown(KeyCode.R) && weaponManager.currentMagazineSize < currentWeapon.magazineSize)
         {
-            CancelInvoke("Shoot");
             StartCoroutine(weaponManager.Reload());
             return;
         }
@@ -54,7 +52,8 @@ public class PlayerShoot : NetworkBehaviour
             {
                 if (Input.GetButtonDown("Fire1"))
                 {
-                    CmdOnShootGraphic(true);
+                    if (isLocalPlayer){
+                    CmdOnShootGraphic(true);}
                     Shoot();
                 }
                 else{
@@ -65,21 +64,27 @@ public class PlayerShoot : NetworkBehaviour
             {
                 if (Input.GetButtonDown("Fire1"))
                 {
-                    CmdOnShootGraphic(true);
+                    if (isLocalPlayer){
+                        CmdOnShootGraphic(true);
+                    }
+                    
                     InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
                 }
                 if (Input.GetButtonUp("Fire1"))
                 {
-                    CmdOnShootGraphic(false);
+                    if (isLocalPlayer){
+                        CmdOnShootGraphic(false);
+                    }
+                    
                     CancelInvoke("Shoot");
                 }
             } 
                 
         }
-        if (Input.GetButtonDown("Fire2") ){
-            CmdOnAim(true);
+        if (Input.GetButtonDown("Fire2") && isLocalPlayer){
+                CmdOnAim(true);  
         }
-        if (Input.GetButtonUp("Fire2") ){
+        if (Input.GetButtonUp("Fire2") && isLocalPlayer){
             CmdOnAim(false);
         }
     }

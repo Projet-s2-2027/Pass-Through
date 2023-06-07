@@ -674,6 +674,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6856107275886322294, guid: 23ae0cc8c8ce5ba46a6a2465c8a6f501, type: 3}
+      propertyPath: NoDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6856107275886322294, guid: 23ae0cc8c8ce5ba46a6a2465c8a6f501, type: 3}
+      propertyPath: DualMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7300162463228422225, guid: 23ae0cc8c8ce5ba46a6a2465c8a6f501, type: 3}
       propertyPath: autoStartServerBuild
       value: 0

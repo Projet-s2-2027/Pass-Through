@@ -51,7 +51,6 @@ public class PlayerSetup : NetworkBehaviour
             }
         }
         GetComponent<Player>().Setup();
-        CmdSetUsername(transform.name, UserAccountManager.LoggedIdUsername);
     }
     
     [Command]
@@ -64,16 +63,28 @@ public class PlayerSetup : NetworkBehaviour
     }
 
 
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+        //RegisterPlayerAndUsername();
+
+    }
+
     public override void OnStartClient()
     {
         base.OnStartClient();
+        RegisterPlayerAndUsername();
+    }
+
+    void RegisterPlayerAndUsername(){
         NetworkIdentity infoIdentity = GetComponent<NetworkIdentity>();
         string netId =infoIdentity.netId.ToString();
         Player player = GetComponent<Player>();
         GameManager.RegisterPlayer(netId,player);
-        infoIdentity.AssignClientAuthority(connectionToClient);
 
+        CmdSetUsername(transform.name, UserAccountManager.LoggedIdUsername);
     }
+
     
     private void AssignRemoteLayer()
     {

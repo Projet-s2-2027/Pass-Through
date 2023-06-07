@@ -125,13 +125,24 @@ public class Player : NetworkBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            interacte = true;
+            CmdInteracteChange(true);
         }
         else
         {
-            interacte = false;
+            CmdInteracteChange(false);
         }
     }
+
+    [Command]
+    void CmdInteracteChange(bool info){
+        RpcInteracteChange(info);
+    }
+
+    [ClientRpc]
+    void RpcInteracteChange(bool info){
+        interacte = true;
+    }
+
 
     [ClientRpc]
     public void RpcTakeDamage(float amount, string sourceID)
