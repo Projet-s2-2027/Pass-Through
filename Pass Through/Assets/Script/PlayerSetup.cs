@@ -59,6 +59,7 @@ public class PlayerSetup : NetworkBehaviour
         Player player = GameManager.GetPlayer(playerId);
         if (player != null){
             player.username = username;
+
         }
     }
 
@@ -66,9 +67,12 @@ public class PlayerSetup : NetworkBehaviour
     public override void OnStartClient()
     {
         base.OnStartClient();
-        string netId = GetComponent<NetworkIdentity>().netId.ToString();
+        NetworkIdentity infoIdentity = GetComponent<NetworkIdentity>();
+        string netId =infoIdentity.netId.ToString();
         Player player = GetComponent<Player>();
         GameManager.RegisterPlayer(netId,player);
+        infoIdentity.AssignClientAuthority(connectionToClient);
+
     }
     
     private void AssignRemoteLayer()

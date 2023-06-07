@@ -281,6 +281,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   maxHealth: 100
+  username: Player
   interacte: 0
   kills: 0
   deaths: 0
@@ -304,7 +305,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   target: {fileID: 2099559969421703569}
-  clientAuthority: 1
+  clientAuthority: 0
   syncPosition: 1
   syncRotation: 1
   syncScale: 0
@@ -336,7 +337,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   target: {fileID: 5040823880365059859}
-  clientAuthority: 1
+  clientAuthority: 0
   syncPosition: 1
   syncRotation: 1
   syncScale: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2043445330880908550}
   - component: {fileID: 6947874168254390788}
   - component: {fileID: 1300039475544187730}
+  - component: {fileID: 4363927972695536810}
   m_Layer: 0
   m_Name: interrupteur
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   - {fileID: 1178434667237038970}
   - {fileID: 4772204453799778666}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6947874168254390788
 MonoBehaviour:
@@ -47,6 +48,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ef644d75c0d19a489f9454b1c9623e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
   interactKey: 101
   button: {fileID: 5244711232476863381}
   targetLight1: {fileID: 0}
@@ -79,6 +83,23 @@ CapsuleCollider:
   m_Height: 19.748701
   m_Direction: 1
   m_Center: {x: 0.9999998, y: 0.7156539, z: -2.8743486}
+--- !u!114 &4363927972695536810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5244711232476863381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  _assetId: 3027324105
+  serverOnly: 0
+  visible: 0
+  hasSpawned: 0
 --- !u!1001 &7594405422223519513
 PrefabInstance:
   m_ObjectHideFlags: 0

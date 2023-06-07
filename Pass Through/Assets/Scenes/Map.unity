@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311924, g: 0.38073963, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1642,6 +1642,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 2668597077
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
@@ -8650,6 +8654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 3630575969
+      objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
       value: interrupteur (1)
@@ -9618,6 +9626,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 3379126986
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
@@ -20264,6 +20276,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 4077305628
+      objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
       value: interrupteur (3)
@@ -22535,6 +22551,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 2481837657
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
@@ -31972,6 +31992,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 3485076180
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
@@ -45418,6 +45442,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 1318112770
+      objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
       value: interrupteur
@@ -45961,6 +45989,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 33178527
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name
@@ -59933,6 +59965,10 @@ PrefabInstance:
     - target: {fileID: 2043445330880908550, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363927972695536810, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
+      propertyPath: sceneId
+      value: 4160430737
       objectReference: {fileID: 0}
     - target: {fileID: 5244711232476863381, guid: 9877f83ace49b3a45ab0cc9ee0ca6e01, type: 3}
       propertyPath: m_Name

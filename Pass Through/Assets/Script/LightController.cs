@@ -3,22 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LightController : MonoBehaviour
+public class LightController : NetworkBehaviour
 {
     public KeyCode interactKey = KeyCode.E;
+
+    [SyncVar]
     public GameObject button;
+
     public Light targetLight1;
     public Light targetLight2;
     public Light targetLight3;
     public Light targetLight4;
 
     private bool isLookingAtButton = false;
+    [SyncVar]
     private bool isLightEnabled = true;
-    private bool isState1Active = true;
     public GameObject state1;
     public GameObject state2;
     public Player infoPlayer;
-
 
     void Update()
     {
@@ -26,6 +28,7 @@ public class LightController : MonoBehaviour
         {
             ToggleLight();
         }
+        LightUpdate();
     }
 
     void OnTriggerEnter(Collider other)
@@ -38,15 +41,14 @@ public class LightController : MonoBehaviour
         } 
     }
 
+
     void OnTriggerExit()
     {
         isLookingAtButton = false;
         infoPlayer = null;
     }
 
-    void ToggleLight()
-    {
-        isLightEnabled = !isLightEnabled;
+    void LightUpdate(){
         if (targetLight1 != null)
         {
             targetLight1.enabled = isLightEnabled;
@@ -63,8 +65,12 @@ public class LightController : MonoBehaviour
         {
             targetLight4.enabled = isLightEnabled;
         }
-        isState1Active = !isState1Active;
-        state1.SetActive(isState1Active);
-        state2.SetActive(!isState1Active);
+        state1.SetActive(isLightEnabled);
+        state2.SetActive(!isLightEnabled);
+    }
+
+    void ToggleLight()
+    {
+        isLightEnabled = !isLightEnabled;
     }
 }
