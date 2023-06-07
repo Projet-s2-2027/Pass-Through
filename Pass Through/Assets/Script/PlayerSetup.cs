@@ -66,7 +66,7 @@ public class PlayerSetup : NetworkBehaviour
     public override void OnStartServer()
     {
         base.OnStartServer();
-        //RegisterPlayerAndUsername();
+        RegisterPlayerAndUsername();
 
     }
 
