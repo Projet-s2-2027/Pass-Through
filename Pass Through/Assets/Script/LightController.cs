@@ -32,7 +32,6 @@ public class LightController : MonoBehaviour
     {
         if (other.gameObject.layer == 8)
         {
-            Debug.Log("entrer d'un joueur");
             infoPlayer = other.gameObject.GetComponent<Player>();
             isLookingAtButton = true;
             

@@ -126,7 +126,6 @@ public class Player : NetworkBehaviour
         if (Input.GetKeyDown(KeyCode.E)) 
         {
             interacte = true;
-            Debug.Log("interagie");
         }
         else
         {
@@ -142,7 +141,6 @@ public class Player : NetworkBehaviour
             return;
         }
         currentHealth -= amount;
-        Debug.Log(transform.name +" a maintenant :"+ currentHealth+" points de vies.");
 
         if (currentHealth<=0)
         {
@@ -183,9 +181,7 @@ public class Player : NetworkBehaviour
             GameManager.instance.SetSceneCameraActive(true);
             GetComponent<PlayerSetup>().playerUIInstance.SetActive(false);
         }
-        
-        
-        Debug.Log(transform.name+"a été éliminé.");
+
         StartCoroutine(Respawn());
          
     }

@@ -49,30 +49,31 @@ public class PlayerShoot : NetworkBehaviour
             return;
         }
 
-        if (currentWeapon.fireRate<=0f)
-        {
-            if (Input.GetButtonDown("Fire1"))
+        if (currentWeapon != null){
+            if (currentWeapon.fireRate<=0f)
             {
-                CmdOnShootGraphic(true);
-                Shoot();
+                if (Input.GetButtonDown("Fire1"))
+                {
+                    CmdOnShootGraphic(true);
+                    Shoot();
+                }
+                else{
+                    CmdOnShootGraphic(false);
+                }
             }
-            else{
-                CmdOnShootGraphic(false);
-            }
-        }
-        else
-        {
-            if (Input.GetButtonDown("Fire1"))
+            else
             {
-                CmdOnShootGraphic(true);
-                InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
-            }
-            else if (Input.GetButtonUp("Fire1"))
+                if (Input.GetButtonDown("Fire1"))
+                {
+                    CmdOnShootGraphic(true);
+                    InvokeRepeating("Shoot",0f,1f/currentWeapon.fireRate);
+                }
+                if (Input.GetButtonUp("Fire1"))
                 {
                     CmdOnShootGraphic(false);
                     CancelInvoke("Shoot");
                 }
-               
+            } 
                 
         }
         if (Input.GetButtonDown("Fire2") ){
@@ -171,6 +172,7 @@ public class PlayerShoot : NetworkBehaviour
 
         if (weaponManager.currentMagazineSize <= 0)
         {
+            CancelInvoke("Shoot");
            StartCoroutine(weaponManager.Reload());
             return;
         }

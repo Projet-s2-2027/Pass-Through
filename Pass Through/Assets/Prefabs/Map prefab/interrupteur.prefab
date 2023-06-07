@@ -33,7 +33,7 @@ Transform:
   - {fileID: 1178434667237038970}
   - {fileID: 4772204453799778666}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6947874168254390788
 MonoBehaviour:
@@ -49,9 +49,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactKey: 101
   button: {fileID: 5244711232476863381}
-  targetLight: {fileID: 0}
+  targetLight1: {fileID: 0}
+  targetLight2: {fileID: 0}
+  targetLight3: {fileID: 0}
+  targetLight4: {fileID: 0}
   state1: {fileID: 1984816736001848303}
   state2: {fileID: 7532430204705595759}
+  infoPlayer: {fileID: 0}
 --- !u!136 &1300039475544187730
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -71,10 +75,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 17
-  m_Height: 37
+  m_Radius: 9.874349
+  m_Height: 19.748701
   m_Direction: 1
-  m_Center: {x: 1, y: -1.5, z: -10}
+  m_Center: {x: 0.9999998, y: 0.7156539, z: -2.8743486}
 --- !u!1001 &7594405422223519513
 PrefabInstance:
   m_ObjectHideFlags: 0
