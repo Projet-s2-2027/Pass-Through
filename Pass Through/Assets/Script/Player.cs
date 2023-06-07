@@ -21,7 +21,8 @@ public class Player : NetworkBehaviour
     [SyncVar]
     public string username = "Player";
 
-    public bool interacte;
+    [SyncVar]
+    public bool interacte = false;
     
     [SyncVar]
     private float currentHealth;
@@ -125,24 +126,13 @@ public class Player : NetworkBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            CmdInteracteChange(true);
+             interacte = true;
         }
         else
         {
-            CmdInteracteChange(false);
+             interacte = false;
         }
     }
-
-    [Command]
-    void CmdInteracteChange(bool info){
-        RpcInteracteChange(info);
-    }
-
-    [ClientRpc]
-    void RpcInteracteChange(bool info){
-        interacte = true;
-    }
-
 
     [ClientRpc]
     public void RpcTakeDamage(float amount, string sourceID)
@@ -157,6 +147,7 @@ public class Player : NetworkBehaviour
         {
             AudioSource audioSource = GetComponent<AudioSource>();
             audioSource.PlayOneShot(deadSound);
+
             Die(sourceID);
         }
         

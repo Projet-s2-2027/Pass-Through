@@ -39,6 +39,9 @@ public class LightController : NetworkBehaviour
             isLookingAtButton = true;
             
         } 
+        else{
+            isLookingAtButton = false;
+        }
     }
 
 

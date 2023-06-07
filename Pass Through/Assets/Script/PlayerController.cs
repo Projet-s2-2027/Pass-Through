@@ -132,22 +132,27 @@ public class PlayerController : NetworkBehaviour
 
       //calcul de la force du jetpack/thruster
       Vector3 thrusterVelocity = Vector3.zero;
-      if (Input.GetButton("Jump") && thrusterFuelAmount>0 && !motor.getIsGrounded())
+      if (Input.GetButton("Jump"))
       {
-         thrusterFuelAmount -= thrusterFuelBurnSpeed * Time.deltaTime;
+         if ( thrusterFuelAmount>0){
+            thrusterFuelAmount -= thrusterFuelBurnSpeed * Time.deltaTime;
 
-         if (thrusterFuelAmount>=0.01f)
-         {
-            thrusterVelocity = Vector3.up * thrusterForce;
-            //SetJointSettings(0f);
+            if (thrusterFuelAmount>=0.01f)
+            {
+               thrusterVelocity = Vector3.up * thrusterForce;
+               //SetJointSettings(0f);
+            }
          }
+
          
       }
-      else if(motor.getIsGrounded()) 
-      {
-         thrusterFuelAmount += thrusterFuelRegenSpeed * Time.deltaTime;
-         //SetJointSettings(jointSpring);
-      }
+
+      if(true) 
+         {
+            thrusterFuelAmount += thrusterFuelRegenSpeed * Time.deltaTime;
+            //SetJointSettings(jointSpring);
+         }
+         
       thrusterFuelAmount = Mathf.Clamp(thrusterFuelAmount, 0f, 1f);
 
       //appliquer la force du jetpack

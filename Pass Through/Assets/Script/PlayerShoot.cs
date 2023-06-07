@@ -41,7 +41,9 @@ public class PlayerShoot : NetworkBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && weaponManager.currentMagazineSize < currentWeapon.magazineSize)
+        Player _player = GetComponent<Player>();
+
+        if ((Input.GetKeyDown(KeyCode.R) && weaponManager.currentMagazineSize < currentWeapon.magazineSize) || (_player != null && _player.isDead))
         {
             StartCoroutine(weaponManager.Reload());
             return;
@@ -178,7 +180,7 @@ public class PlayerShoot : NetworkBehaviour
         if (weaponManager.currentMagazineSize <= 0)
         {
             CancelInvoke("Shoot");
-           StartCoroutine(weaponManager.Reload());
+            StartCoroutine(weaponManager.Reload());
             return;
         }
 
