@@ -7,7 +7,6 @@ public class LightController : NetworkBehaviour
 {
     public KeyCode interactKey = KeyCode.E;
 
-    [SyncVar]
     public GameObject button;
 
     public Light targetLight1;
@@ -16,7 +15,6 @@ public class LightController : NetworkBehaviour
     public Light targetLight4;
 
     private bool isLookingAtButton = false;
-    [SyncVar]
     private bool isLightEnabled = true;
     public GameObject state1;
     public GameObject state2;
@@ -26,7 +24,7 @@ public class LightController : NetworkBehaviour
     {
         if (isLookingAtButton && infoPlayer != null && infoPlayer.interacte)
         {
-            ToggleLight();
+            RpcToggleLight();
         }
         LightUpdate();
     }
@@ -75,5 +73,10 @@ public class LightController : NetworkBehaviour
     void ToggleLight()
     {
         isLightEnabled = !isLightEnabled;
+    }
+
+    [ClientRpc]
+    void RpcToggleLight(){
+        ToggleLight();
     }
 }

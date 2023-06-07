@@ -15,7 +15,7 @@ D:/Projet/Pass-Through/Pass Through
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53208
+53541
 Successfully changed project path to: D:/Projet/Pass-Through/Pass Through
 D:/Projet/Pass-Through/Pass Through
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Projet/Pass-Through/Pass Through
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13988] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 513344743 [EditorId] 513344743 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2RJO1K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4544] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2151045359 [EditorId] 2151045359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2RJO1K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13988] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 513344743 [EditorId] 513344743 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2RJO1K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4544] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2151045359 [EditorId] 2151045359 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P2RJO1K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016953 seconds.
-- Loaded All Assemblies, in  0.569 seconds
+Registered in 0.019389 seconds.
+- Loaded All Assemblies, in  0.496 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.434 seconds
+- Finished resetting the current domain, in  0.349 seconds
 Domain Reload Profiling:
-	ReloadAssembly (328ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (309ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (145ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-				TypeCache.Initialize (217ms)
-					TypeCache.ScanAssembly (214ms)
+			SetupTypeCache (169ms)
+				TypeCache.Initialize (168ms)
+					TypeCache.ScanAssembly (165ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (340ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (11ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,8 +111,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.153 seconds
-Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.026 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -127,44 +127,44 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.771 seconds
+- Finished resetting the current domain, in  0.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (341ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (312ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		LoadAllAssembliesAndSetupDomain (808ms)
-			LoadAssemblies (421ms)
+			CreateAndSetChildDomain (24ms)
+		LoadAllAssembliesAndSetupDomain (710ms)
+			LoadAssemblies (395ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (477ms)
-				TypeCache.Initialize (439ms)
-					TypeCache.ScanAssembly (430ms)
-				ResolveRequiredComponents (9ms)
+			SetupTypeCache (405ms)
+				TypeCache.Initialize (372ms)
+					TypeCache.ScanAssembly (365ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (554ms)
+			SetupLoadedEditorAssemblies (498ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3906.
-Memory consumption went from 132.9 MB to 132.9 MB.
-Total: 3.720500 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.110700 ms MarkObjects: 3.137000 ms  DeleteObjects: 0.079100 ms)
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (41.6 KB). Loaded Objects now: 3916.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 3.796100 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.095700 ms MarkObjects: 3.274900 ms  DeleteObjects: 0.077100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,593 +179,512 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20079.147904 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/BackgroundSprite_mat.mat
-  artifactKey: Guid(af80f3d437169cf4dbdcdc0fa3d76444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/BackgroundSprite_mat.mat using Guid(af80f3d437169cf4dbdcdc0fa3d76444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4641e6b18a782f31a5b4f43e2ce22e') in 0.179264 seconds
+  Time since last request: 22860.052380 seconds.
+  path: Assets/NavMeshComponents
+  artifactKey: Guid(33e6b5dc40cc2be4b968818f34bbe24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents using Guid(33e6b5dc40cc2be4b968818f34bbe24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00abb94f39fee5be6977b22e70a20112') in 0.002056 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat
-  artifactKey: Guid(141d9d6ca43b6c843965491604c6deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat using Guid(141d9d6ca43b6c843965491604c6deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dddb11e58d1f3fa5655c71e4ea276ef') in 0.014094 seconds
+  Time since last request: 0.000071 seconds.
+  path: Assets/NavMeshComponents/Scripts
+  artifactKey: Guid(55d1795de391a0e4e9ab2c09b3a1b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts using Guid(55d1795de391a0e4e9ab2c09b3a1b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b36bb8ac46fee64eaf2f30060973be') in 0.000926 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/Map prefab/marble.mat
-  artifactKey: Guid(309b327d12de9d54b85bea2226f24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/marble.mat using Guid(309b327d12de9d54b85bea2226f24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8564ad4f9e2e873a1f30ed13b333235') in 0.017545 seconds
+  Time since last request: 0.000131 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+  artifactKey: Guid(ca3ce29b640ced04b8d5fc16d3b7e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef using Guid(ca3ce29b640ced04b8d5fc16d3b7e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3413db205e362a8c7f4b948df81dc3d') in 0.000922 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PlayerSkin/PLayerMaterials/Eye_MAT.mat
-  artifactKey: Guid(15b68e89234fa6448abec0abfddaa5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSkin/PLayerMaterials/Eye_MAT.mat using Guid(15b68e89234fa6448abec0abfddaa5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f523e56590248d6bca3969fbbc32febd') in 0.014516 seconds
+  Time since last request: 0.000174 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+  artifactKey: Guid(d6e972f06708f304b9d3a4fbdba4fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshSurface.cs using Guid(d6e972f06708f304b9d3a4fbdba4fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec595885a67de933ee1c77aa0689a047') in 0.000561 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo Decal02_mat.mat
-  artifactKey: Guid(5e49d7e7e88538142a5458424d5288e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo Decal02_mat.mat using Guid(5e49d7e7e88538142a5458424d5288e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a22bc179ee5879a553fadb8eeaddf3e') in 0.041297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Robert.fbx
-  artifactKey: Guid(c31501b18d95d82419dad970a9527842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Robert.fbx using Guid(c31501b18d95d82419dad970a9527842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7cc03bdf9c070045259212e14fbe8c') in 0.089213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 167
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol 9mm Bullet_Low_sep.fbx
-  artifactKey: Guid(5189b60a94ec6374ebc7ce00be771315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol 9mm Bullet_Low_sep.fbx using Guid(5189b60a94ec6374ebc7ce00be771315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3506ad2c07820821349dc5baa12b1b52') in 0.066855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Map prefab/WallColor.mat
-  artifactKey: Guid(356e4c31d005b5244be9bb7439ead68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/WallColor.mat using Guid(356e4c31d005b5244be9bb7439ead68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe011397ca322e898b12a4cff0b1b63') in 0.012862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(bdb04adb61b94e04c967a331bb06e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(bdb04adb61b94e04c967a331bb06e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c3f934311b836cd5ab139eabbf79af') in 0.012990 seconds
+  Time since last request: 256.241591 seconds.
+  path: Assets/Scenes/Map/NavMesh-NavMeshSurface 1.asset
+  artifactKey: Guid(39381d6044a96f847aef2f372251fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map/NavMesh-NavMeshSurface 1.asset using Guid(39381d6044a96f847aef2f372251fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76be9b35e3be59e7dea2c2fff6e8c4ee') in 0.008865 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Paperman.fbx
-  artifactKey: Guid(a7fa87652e796e149bcf74bfcbfdef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Models/Paperman.fbx using Guid(a7fa87652e796e149bcf74bfcbfdef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033af3f69e2d18928d55bcf86c789064') in 0.044020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (631ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		LoadAllAssembliesAndSetupDomain (817ms)
+			LoadAssemblies (485ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+				TypeCache.Initialize (424ms)
+					TypeCache.ScanAssembly (415ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.7 KB). Loaded Objects now: 3921.
+Memory consumption went from 131.7 MB to 131.7 MB.
+Total: 4.970200 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.129900 ms MarkObjects: 4.340600 ms  DeleteObjects: 0.078200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.324 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (542ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (658ms)
+			LoadAssemblies (382ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+				TypeCache.Initialize (363ms)
+					TypeCache.ScanAssembly (355ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.6 KB). Loaded Objects now: 3924.
+Memory consumption went from 131.7 MB to 131.7 MB.
+Total: 4.276900 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.149300 ms MarkObjects: 3.677900 ms  DeleteObjects: 0.085200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo_mat.mat
-  artifactKey: Guid(8eca118d4164fb74698a88310a8f3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo_mat.mat using Guid(8eca118d4164fb74698a88310a8f3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eadb4c189cfab15dd285f451b74e327') in 0.133020 seconds
+  Time since last request: 1217.015361 seconds.
+  path: Assets/Zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cdb2a8f28e2f6b2245332aee01ed6d') in 0.242509 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.266 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (624ms)
+		BeginReloadAssembly (512ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (637ms)
+			LoadAssemblies (352ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+				TypeCache.Initialize (363ms)
+					TypeCache.ScanAssembly (357ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.6 KB). Loaded Objects now: 3936.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 3.672100 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.094200 ms MarkObjects: 3.118600 ms  DeleteObjects: 0.068200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.223 seconds
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling:
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (490ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (624ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+				TypeCache.Initialize (345ms)
+					TypeCache.ScanAssembly (337ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.6 KB). Loaded Objects now: 3939.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 3.762200 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.098000 ms MarkObjects: 3.159300 ms  DeleteObjects: 0.106700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.274 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (506ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (652ms)
+			LoadAssemblies (371ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+				TypeCache.Initialize (361ms)
+					TypeCache.ScanAssembly (353ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.5 KB). Loaded Objects now: 3942.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 3.327800 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.088300 ms MarkObjects: 2.848400 ms  DeleteObjects: 0.056400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.236 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (502ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		LoadAllAssembliesAndSetupDomain (622ms)
+			LoadAssemblies (362ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+				TypeCache.Initialize (345ms)
+					TypeCache.ScanAssembly (338ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.6 KB). Loaded Objects now: 3945.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 3.643700 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.091000 ms MarkObjects: 3.164000 ms  DeleteObjects: 0.081100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projet\Pass-Through\Pass Through\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.345 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (524ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (712ms)
+			LoadAssemblies (379ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+				TypeCache.Initialize (408ms)
+					TypeCache.ScanAssembly (398ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (487ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (40.7 KB). Loaded Objects now: 3948.
+Memory consumption went from 138.0 MB to 138.0 MB.
+Total: 3.650000 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.090800 ms MarkObjects: 3.173500 ms  DeleteObjects: 0.071400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imports/G28 Rifle/Materials/G28 Rifle.mat
-  artifactKey: Guid(a2077239d6dbb4743b890901457cfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/G28 Rifle/Materials/G28 Rifle.mat using Guid(a2077239d6dbb4743b890901457cfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a4c51651c47f52c2c3960d248a3eaf') in 0.030749 seconds
+  Time since last request: 1243.435097 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX
+  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f195e4acbaec9b60a40ebba1235e96a8') in 0.159333 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prefabs/Map prefab/wallllll.mat
-  artifactKey: Guid(0b73da309552faf41be30f60881e2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/wallllll.mat using Guid(0b73da309552faf41be30f60881e2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b346babdc536a3ac5e3c03ca8c0ea37') in 0.011837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Bullet_mat.mat
-  artifactKey: Guid(82c874ff2d890244892dea20912dfd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Bullet_mat.mat using Guid(82c874ff2d890244892dea20912dfd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfe8e951ac278edc31564788e5c1b32') in 0.099145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Bullet Decal_mat.mat
-  artifactKey: Guid(00707b2739167904f805bf0927759e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Bullet Decal_mat.mat using Guid(00707b2739167904f805bf0927759e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22194fd0e6b0aa219908c7fd613ac23b') in 0.024890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Environment/Floor 1.mat
-  artifactKey: Guid(7923f547fcb5da14c8eb22c0324c6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/(Visuel)(character)Personnagetest/Sci-Fi Robots Bundle/Materials/Environment/Floor 1.mat using Guid(7923f547fcb5da14c8eb22c0324c6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f92d4f38c8150ec2d12ab012ecb1ab9') in 0.013227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol Ammo.fbx
-  artifactKey: Guid(8e59bbaf10331894b85a08ebeaf0d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol Ammo.fbx using Guid(8e59bbaf10331894b85a08ebeaf0d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f558a69d8d1858e2dc17d94af4a30e81') in 0.084563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo Decal03_mat.mat
-  artifactKey: Guid(d99f0bc6f3d2b6845b1d6cf460a34107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M 9mm Ammo Decal03_mat.mat using Guid(d99f0bc6f3d2b6845b1d6cf460a34107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f32412968288156ae3e4ee2d3b8e81') in 0.015655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Script/portal/Materials/RT3.mat
-  artifactKey: Guid(6cef62db03264dd4d96138516a77b2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/portal/Materials/RT3.mat using Guid(6cef62db03264dd4d96138516a77b2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c1d03ab8a8ca7619d32a4f3f34d860') in 0.010608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat
-  artifactKey: Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat using Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1d85de40c820f6a7d81401046e3570') in 0.011302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Standard Assets/FlareParticle/Materials/ParticleFirework.mat
-  artifactKey: Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/FlareParticle/Materials/ParticleFirework.mat using Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da08b4622b6ee4a9084f750f2a3b1a71') in 0.010051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol 9mm Bullet_High_sep.fbx
-  artifactKey: Guid(6d93fbf9945e19a4dbfc8a718bfbc1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Meshes/PT-9M Pistol 9mm Bullet_High_sep.fbx using Guid(6d93fbf9945e19a4dbfc8a718bfbc1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9911f0cba8433edb3cfc8d6384cae1bb') in 0.056565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(76a148c4186ab0c4581a2e91d56cff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(76a148c4186ab0c4581a2e91d56cff72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10332df0b69ef316b2414747fd8a953') in 0.010507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Materials/Carrelage.mat
-  artifactKey: Guid(f19cebe83112c034bbfa75273eb85756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Carrelage.mat using Guid(f19cebe83112c034bbfa75273eb85756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10cf8bc1fb299b5dd661f660b81bcde') in 0.010241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Case_mat.mat
-  artifactKey: Guid(9941d32008f72e940883a9fafe63419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Case_mat.mat using Guid(9941d32008f72e940883a9fafe63419a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d86bd19657dd70ec5fd4b6e6717179d') in 0.086882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Animations/Player/Main Weapon/Idle (2).fbx
-  artifactKey: Guid(e5334847e92a7ea4286d21405f0d411c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Idle (2).fbx using Guid(e5334847e92a7ea4286d21405f0d411c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e591548480d0e3497c84dcd42b45a316') in 0.010712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Animations/Player/Main Weapon/Walk Backward.fbx
-  artifactKey: Guid(064f4d0ecd757b94aa930bc25734e6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Walk Backward.fbx using Guid(064f4d0ecd757b94aa930bc25734e6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e68e280ba26c0f21312ebfc4303ca9') in 0.007909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Animations/Player/Main Weapon/Walk Forward Right (1).fbx
-  artifactKey: Guid(d5a99d932dd636545973d9222a0afecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Walk Forward Right (1).fbx using Guid(d5a99d932dd636545973d9222a0afecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ee5b582ed723f72ab8412afa69c0ca') in 0.008471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Animations/Player/Secondary Weapon/Pistol Walk Arc.fbx
-  artifactKey: Guid(563cbb88655ef794888430ad9325299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Secondary Weapon/Pistol Walk Arc.fbx using Guid(563cbb88655ef794888430ad9325299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5eb037104fd9bf54bcdb117870399e') in 0.008192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imports/G28 Rifle/G28 Rifle02.FBX
-  artifactKey: Guid(6c4bf6ac7b934e84996ec899ee0fc016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/G28 Rifle/G28 Rifle02.FBX using Guid(6c4bf6ac7b934e84996ec899ee0fc016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b194c7b2d10b0cc64e378c3f9dcb0583') in 0.042879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Animations/Player/Main Weapon/strafe right.fbx
-  artifactKey: Guid(90d99e16a7ed5fa42a3d3ebf88c9d66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/strafe right.fbx using Guid(90d99e16a7ed5fa42a3d3ebf88c9d66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a7dfd99012a3d995fe4646e251efe4') in 0.010511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Animations/Player/Secondary Weapon/Pistol Idle (1).fbx
-  artifactKey: Guid(66e73b065a266904ca7eba476c138a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Secondary Weapon/Pistol Idle (1).fbx using Guid(66e73b065a266904ca7eba476c138a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1de7570fae600a3d00a1b28234cf9') in 0.008034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Animations/Player/Secondary Weapon/Pistol Walk Backward.fbx
-  artifactKey: Guid(761173e77ed1a3b45ba5c145c0f2032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Secondary Weapon/Pistol Walk Backward.fbx using Guid(761173e77ed1a3b45ba5c145c0f2032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ccda91f89549b5f06553691b9365c9') in 0.007768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Animations/Player/Main Weapon/Firing Rifle.fbx
-  artifactKey: Guid(3d2edc8022703364b9a5bf649c023865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Firing Rifle.fbx using Guid(3d2edc8022703364b9a5bf649c023865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b8cd30a5571e80df91f6893db5aad1') in 0.007911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PlayerSkin/Exo Gray.fbx
-  artifactKey: Guid(05003ba336af08d47810f2028f401d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSkin/Exo Gray.fbx using Guid(05003ba336af08d47810f2028f401d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964158db0f9b19632878cf6ef11f2d77') in 0.193495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 273
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Animations/Player/Main Weapon/strafe left.fbx
-  artifactKey: Guid(b2b40a36422c74e4aa0ce7523c4887dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/strafe left.fbx using Guid(b2b40a36422c74e4aa0ce7523c4887dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606b0749b1d0718eda76c8394b96920b') in 0.009789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Animations/Player/Main Weapon/Walk Backward Left (1).fbx
-  artifactKey: Guid(db88a4a2f5cba1646b8c0b2655a3a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Walk Backward Left (1).fbx using Guid(db88a4a2f5cba1646b8c0b2655a3a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ae50129a52d0b47417896348ee938f') in 0.008773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Animations/Player/Secondary Weapon/Pistol Strafe (1).fbx
-  artifactKey: Guid(002b7da0af47f2745bbb86fdfa660db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Secondary Weapon/Pistol Strafe (1).fbx using Guid(002b7da0af47f2745bbb86fdfa660db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22b7ced3329ba8bc26468acf2bea3de') in 0.008604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imports/MP7AKM/MP7/Models/AKM.fbx
-  artifactKey: Guid(99fcce1f10b2ebd4a8cd31a345f6bed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/MP7AKM/MP7/Models/AKM.fbx using Guid(99fcce1f10b2ebd4a8cd31a345f6bed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c238b2cd32a5e94155c4801038e88210') in 0.537379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 189
+Number of asset objects unloaded after import = 120
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Locker/3dobjects/spind.fbx
-  artifactKey: Guid(f8a4903bf11aefb4f8358b11034c57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Locker/3dobjects/spind.fbx using Guid(f8a4903bf11aefb4f8358b11034c57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc9a2a213e6403571b470568efc96bc') in 0.063656 seconds
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34e88e0e669cbbc4bef89a0015f2e82') in 0.163105 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Prefabs/Map prefab/inte-open.prefab
-  artifactKey: Guid(4dc22cbad396e5e4b93300e96ed6b566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/inte-open.prefab using Guid(4dc22cbad396e5e4b93300e96ed6b566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfae91871f6fae6d5b772633933be9f6') in 0.013676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 136
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/2 x 4 wall.prefab
-  artifactKey: Guid(4cff769aa2b599d448354664dd66b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/2 x 4 wall.prefab using Guid(4cff769aa2b599d448354664dd66b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fb3beb12255a63130ab0987f1b1d48') in 0.012751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/RedWall 3 x 1.prefab
-  artifactKey: Guid(10dae30fa78f3c9498440d99e1340816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/RedWall 3 x 1.prefab using Guid(10dae30fa78f3c9498440d99e1340816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c75b47a42fefa69597ec1f7113af0') in 0.014312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/39 x 32.prefab
-  artifactKey: Guid(362444238c11e6248b788ce70bcd4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/39 x 32.prefab using Guid(362444238c11e6248b788ce70bcd4018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b30952176d21550bd881d8c32558e6') in 0.219105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8372
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Case.prefab
-  artifactKey: Guid(14e42df45c5cc1d4682cdd972f351e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Case.prefab using Guid(14e42df45c5cc1d4682cdd972f351e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68a18eede81f2cd39a016b5616b4390') in 0.501160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 370
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Locker/Prefabs/locker_01c.prefab
-  artifactKey: Guid(6ae4988e9e2ba5d41a6bd328ab7421dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Locker/Prefabs/locker_01c.prefab using Guid(6ae4988e9e2ba5d41a6bd328ab7421dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a965de12d2040168937fb043fe259aa') in 0.034994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imports/G28 Rifle/G28 Rifle_fbx_prefab.prefab
-  artifactKey: Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/G28 Rifle/G28 Rifle_fbx_prefab.prefab using Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a6c0e26cb936ad4eb6f7079b6e0413') in 0.035936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/CarrelageLine.prefab
-  artifactKey: Guid(f4884a42c050344468fb2433c4bd8778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/CarrelageLine.prefab using Guid(f4884a42c050344468fb2433c4bd8778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6133b9d78c27eba055e124bc071b558') in 0.031341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
+Number of asset objects unloaded after import = 172
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/3 x 3.prefab
-  artifactKey: Guid(3c1cb75134137354eae1f5edd47d073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/3 x 3.prefab using Guid(3c1cb75134137354eae1f5edd47d073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3115aa3cd77ca5fad7c1545a1425df') in 0.022259 seconds
+  path: Assets/Zombie/Animations/Zombie@Z_Run.FBX
+  artifactKey: Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_Run.FBX using Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cf3a9c1d29b8f48f22a460505ae4b4') in 0.145587 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 138
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/Light.prefab
-  artifactKey: Guid(6f07a2a7d7755a14fad41a41eadf7ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/Light.prefab using Guid(6f07a2a7d7755a14fad41a41eadf7ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307de7a253e344ad8ba0f700b9720371') in 0.068229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Locker/Prefabs/locker_01a.prefab
-  artifactKey: Guid(b7b9112f4651c5341af4f4f45a166e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Locker/Prefabs/locker_01a.prefab using Guid(b7b9112f4651c5341af4f4f45a166e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c01645454ad8bc0243f634c56057fad') in 0.049896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Pistol_skin02.prefab
-  artifactKey: Guid(184794cefbeed96439ae5e552ba91d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Pistol_skin02.prefab using Guid(184794cefbeed96439ae5e552ba91d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540ed58cc8b3937f7058159ef598fb3') in 0.280107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 123
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/4 x 4.prefab
-  artifactKey: Guid(68d6c271f7a470a448b3d6969ab4148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/4 x 4.prefab using Guid(68d6c271f7a470a448b3d6969ab4148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcf23429bb07e6e4e0197e168aa5f4') in 0.017542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 178
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/2 x 4.prefab
-  artifactKey: Guid(bcebc096006696e4cbcbfde0b816c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/2 x 4.prefab using Guid(bcebc096006696e4cbcbfde0b816c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f373dc00f3d912209eaec998f319a5') in 0.017107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 124
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imports/G28 Rifle/G28 Rifle_fbx.FBX
-  artifactKey: Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/G28 Rifle/G28 Rifle_fbx.FBX using Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bb8e07210c263cfc5b523ab04a11ca') in 0.034098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/2 x 16 wall.prefab
-  artifactKey: Guid(f6935983f81f16948afec63414344b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/2 x 16 wall.prefab using Guid(f6935983f81f16948afec63414344b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4540a40498af9a7b139e4a4156074c') in 0.022724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 448
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Map prefab/inte-close.prefab
-  artifactKey: Guid(c2a0082fe52f330448533d815cb5682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/inte-close.prefab using Guid(c2a0082fe52f330448533d815cb5682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c88130f87c295a3b6a9b30c92d7493e') in 0.013574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 136
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/Demo/PT-9M Pistol_skin02.prefab
-  artifactKey: Guid(677d25bf767098344b76998ad10e9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/Demo/PT-9M Pistol_skin02.prefab using Guid(677d25bf767098344b76998ad10e9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a1f3749636e658ca314b3bb600dc5f') in 0.331984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 262
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/Demo/PT-9M Case.prefab
-  artifactKey: Guid(582cbcb7b9c074c4a891ae11e741f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/Demo/PT-9M Case.prefab using Guid(582cbcb7b9c074c4a891ae11e741f43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f58f3ba30c8893cc9e8738af46265b') in 0.394850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 597
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Animations/Player/Main Weapon/Rifle Walk.fbx
-  artifactKey: Guid(51edf6d7ae53a7b479a471c80de406df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Main Weapon/Rifle Walk.fbx using Guid(51edf6d7ae53a7b479a471c80de406df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d48d2a063c0facf0f0b034792e6251') in 0.012755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 231
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Case_close.prefab
-  artifactKey: Guid(55dcaa1df5eb04b479c44c1f9a7ff2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Case_close.prefab using Guid(55dcaa1df5eb04b479c44c1f9a7ff2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4ada69cb4bc5ad04dd09daf8d9602') in 0.416676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 370
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Standard Assets/FlareParticle/Prefabs/Flare.prefab
-  artifactKey: Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/FlareParticle/Prefabs/Flare.prefab using Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49189597a6eced10ff3491510d858282') in 0.027893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Pistol 9mm Bullet_Low.prefab
-  artifactKey: Guid(c8ed49fe70796f7459526396512af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Prefabs/PT-9M Pistol 9mm Bullet_Low.prefab using Guid(c8ed49fe70796f7459526396512af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea98439ceb2296e7a196a6a8d709994') in 0.101776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/1 x 1 blue.prefab
-  artifactKey: Guid(cf940ee57e27fe943a426e110eff8e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/1 x 1 blue.prefab using Guid(cf940ee57e27fe943a426e110eff8e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c084c74dc72a069f51c2fdffadb60241') in 0.016676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab
-  artifactKey: Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterBlock_50m.prefab using Guid(7097ba7ba649e1f41bba232312bdcbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f148f57f176da493d52e55813d86ab6') in 0.018266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 172
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Imports/MP7AKM/MP7/Prefabs/MP7.prefab
-  artifactKey: Guid(a59b0609ea2fa5f44823a30f5c7ce800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/MP7AKM/MP7/Prefabs/MP7.prefab using Guid(a59b0609ea2fa5f44823a30f5c7ce800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be2c61bbb445e2f5158db8b43cce227') in 0.045889 seconds
+  path: Assets/Zombie/Animations/Zombie@Z_Idle.FBX
+  artifactKey: Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_Idle.FBX using Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6f8c557943583fa1ffc79ff90463b7') in 0.170503 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 257
+Number of asset objects unloaded after import = 172
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/3 x 2.prefab
-  artifactKey: Guid(ffbd4486dd4e7144b844550bb8cd6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/3 x 2.prefab using Guid(ffbd4486dd4e7144b844550bb8cd6ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf25b181e552a98d829add1719c948ec') in 0.012926 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX
+  artifactKey: Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX using Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec841fee9f8557b9be2bc8dbaae89ef3') in 0.024329 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
+Number of asset objects unloaded after import = 120
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/RedLineCover.prefab
-  artifactKey: Guid(ed58bd1f088e01646886a0f947d8746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/RedLineCover.prefab using Guid(ed58bd1f088e01646886a0f947d8746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086c373dd8114c50e4afeffc9e952e8e') in 0.014751 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c311abb71d402365cfb78539f5b50') in 0.162813 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/Map prefab/Bloc/2 x 2.prefab
-  artifactKey: Guid(1591f2976937845468d49188b0f6b2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/Bloc/2 x 2.prefab using Guid(1591f2976937845468d49188b0f6b2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad902c022966a146a961bcdff6f4730') in 0.014165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 67
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Pistol_Decal_mat.mat
-  artifactKey: Guid(b15e5ff2e9606594a8c07e10bfef06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Pistol_Decal_mat.mat using Guid(b15e5ff2e9606594a8c07e10bfef06f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1c79e14a47adcc874daccfbc78faf5') in 0.053638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Pistol_Skin01_Body_mat.mat
-  artifactKey: Guid(7e7d497a610814d4c9c1a728e67c7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/NZ PT-9M Pistol/Materials/PT-9M Pistol_Skin01_Body_mat.mat using Guid(7e7d497a610814d4c9c1a728e67c7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f3a402e454b44f64238b96f8b0375d') in 0.078356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 103.675608 seconds.
-  path: Assets/Prefabs/Map prefab/360_F_285776347_Bbd3JlSgtsvWioH3m1SYXVf8QB7fmSbn.jpg
-  artifactKey: Guid(d7573b76ae55fda45b5058de5608188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/360_F_285776347_Bbd3JlSgtsvWioH3m1SYXVf8QB7fmSbn.jpg using Guid(d7573b76ae55fda45b5058de5608188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7243f04763a9dc48d67d8883c75cfcb4') in 0.020605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Prefabs/Map prefab/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-s.jpg
-  artifactKey: Guid(127ff2803254b1843a39b3c909b03ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-s.jpg using Guid(127ff2803254b1843a39b3c909b03ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a039cb0b60bc7426b0c63e1a5457c232') in 0.009110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Prefabs/Map prefab/white-polygon-geometric-seamless-futuristic-technology-design-background-texture-vector_33869-2456.jpg
-  artifactKey: Guid(a78aec40ca7004445ac471f85625803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Map prefab/white-polygon-geometric-seamless-futuristic-technology-design-background-texture-vector_33869-2456.jpg using Guid(a78aec40ca7004445ac471f85625803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf38b23179bca4e5944abe678d59338') in 0.012327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 172

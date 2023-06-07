@@ -196,6 +196,10 @@ public class PlayerShoot : NetworkBehaviour
                 CmdPlayerShot(hit.collider.name, currentWeapon.damage,transform.name);
             }
 
+            if (hit.collider.tag == "Zombie" && hit.collider.gameObject.GetComponent<ReceiveDamage>() != null){
+                hit.collider.gameObject.GetComponent<ReceiveDamage>().GetDamage(currentWeapon.damage);
+            }
+
             CmdOnHit(hit.point, hit.normal);
         }
     }
